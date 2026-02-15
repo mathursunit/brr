@@ -1,0 +1,6 @@
+/* Mobile-specific overrides */
+@media (max-width: 640px) {
+    .leaflet-container {
+        height: 300px !important;
+    }
+}

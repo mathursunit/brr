@@ -1,0 +1,97 @@
+{
+  "last_updated": "2026-02-15T14:39:31.240Z",
+  "rankings": [
+    {
+      "id": "fairbanks_ak",
+      "city": "Fairbanks",
+      "state": "AK",
+      "lowest_temp": -50,
+      "lowest_windchill": -55,
+      "record_date": "Jan 4, 2026",
+      "all_time_low": -66,
+      "all_time_windchill": -76,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 1,
+      "previous_rank": 0
+    },
+    {
+      "id": "watertown_ny",
+      "city": "Watertown",
+      "state": "NY",
+      "lowest_temp": -36,
+      "lowest_windchill": -41,
+      "record_date": "Feb 8, 2026",
+      "all_time_low": -38,
+      "all_time_windchill": -48,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "Coldest_Cities"
+      ],
+      "rank": 2,
+      "previous_rank": 0
+    },
+    {
+      "id": "international_falls_mn",
+      "city": "International Falls",
+      "state": "MN",
+      "lowest_temp": -36,
+      "lowest_windchill": -41,
+      "record_date": "Jan 24, 2026",
+      "all_time_low": -55,
+      "all_time_windchill": -65,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 3,
+      "previous_rank": 0
+    },
+    {
+      "id": "fargo_nd",
+      "city": "Fargo",
+      "state": "ND",
+      "lowest_temp": -20,
+      "lowest_windchill": -25,
+      "record_date": "Jan 22, 2026",
+      "all_time_low": -39,
+      "all_time_windchill": -49,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 4,
+      "previous_rank": 0
+    },
+    {
+      "id": "tower_mn",
+      "city": "Tower",
+      "state": "MN",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -60,
+      "all_time_windchill": -70,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 5,
+      "previous_rank": 0
+    },
+    {
+      "id": "grand_forks_nd",
+      "city": "Grand Forks",
+      "state": "ND",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -43,
+      "all_time_windchill": -53,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 6,
+      "previous_rank": 0
+    }
+  ]
+}

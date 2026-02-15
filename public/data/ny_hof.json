@@ -1,0 +1,236 @@
+{
+    "title": "New York Snowfall Hall of Fame",
+    "description": "The all-time heaviest winter seasons ever recorded in New York State.",
+    "records": [
+        {
+            "rank": 1,
+            "city": "Hooker (Montague)",
+            "region": "Tug Hill Plateau",
+            "total_snow": 466.9,
+            "season": "1976-1977",
+            "is_state_record": true,
+            "fun_facts": [
+                "Holds the New York State record for seasonal snowfall at a staggering 466.9 inches.",
+                "Located on the Tug Hill Plateau, notorious for extreme lake-effect snow off Lake Ontario.",
+                "The Tug Hill region averages over 200 inches of snow annually in many locations."
+            ],
+            "links": [
+                {
+                    "label": "Tug Hill Region Guide",
+                    "url": "https://www.tughill.org"
+                },
+                {
+                    "label": "Lewis County Tourism",
+                    "url": "https://www.naturallylewis.com"
+                }
+            ]
+        },
+        {
+            "rank": 2,
+            "city": "Bennetts Bridge",
+            "region": "Tug Hill Plateau",
+            "total_snow": 451.7,
+            "season": "1959-1960",
+            "is_state_record": false,
+            "fun_facts": [
+                "Bennetts Bridge is a tiny hamlet in Tug Hill that recorded 451.7 inches in a single season.",
+                "The Tug Hill Plateau sits between Lake Ontario and the Adirondacks, funneling moisture into massive snow.",
+                "Tug Hill receives the heaviest lake-effect snow east of the Great Lakes."
+            ],
+            "links": [
+                {
+                    "label": "Tug Hill Commission",
+                    "url": "https://www.tughill.org"
+                },
+                {
+                    "label": "Oswego County Tourism",
+                    "url": "https://www.visitoswegocounty.com"
+                }
+            ]
+        },
+        {
+            "rank": 3,
+            "city": "Old Forge",
+            "region": "Adirondacks",
+            "total_snow": 358.0,
+            "season": "1970-1971",
+            "is_state_record": false,
+            "fun_facts": [
+                "Old Forge is known as the 'Snowmobile Capital of the East' for good reason.",
+                "This Adirondack town's heavy snowfall comes from both lake-effect and nor'easter storms.",
+                "The 1970-71 season produced over 29 feet of total snowfall in Old Forge."
+            ],
+            "links": [
+                {
+                    "label": "Old Forge Tourism",
+                    "url": "https://www.oldforgenychamber.com"
+                },
+                {
+                    "label": "Adirondack Experience",
+                    "url": "https://www.theadkx.org"
+                }
+            ]
+        },
+        {
+            "rank": 4,
+            "city": "Highmarket",
+            "region": "Tug Hill Plateau",
+            "total_snow": 346.0,
+            "season": "2001-2002",
+            "is_state_record": false,
+            "fun_facts": [
+                "Highmarket lies in the heart of the Tug Hill Plateau's heaviest snow belt.",
+                "The 2001-02 winter was one of the snowiest on record across the entire Northeast.",
+                "Tug Hill communities are largely sustained by winter recreation and forestry."
+            ],
+            "links": [
+                {
+                    "label": "Tug Hill Region Info",
+                    "url": "https://www.tughill.org"
+                },
+                {
+                    "label": "Snow Ridge Ski Area",
+                    "url": "https://www.snowridge.com"
+                }
+            ]
+        },
+        {
+            "rank": 5,
+            "city": "Sherman",
+            "region": "Chautauqua Ridge",
+            "total_snow": 338.5,
+            "season": "2001-2002",
+            "is_state_record": false,
+            "fun_facts": [
+                "Sherman sits on the Chautauqua Ridge, catching intense Lake Erie snow bands.",
+                "This small hamlet averages over 224 inches of snow per season — more than most ski resorts.",
+                "The 2001-02 season brought Sherman nearly 28 feet of total snowfall."
+            ],
+            "links": [
+                {
+                    "label": "Chautauqua County Visitors",
+                    "url": "https://www.tourchautauqua.com"
+                },
+                {
+                    "label": "Peek'n Peak Resort",
+                    "url": "https://www.pknpk.com"
+                }
+            ]
+        },
+        {
+            "rank": 6,
+            "city": "Oswego",
+            "region": "Lake Ontario Shore",
+            "total_snow": 314.8,
+            "season": "1965-1966",
+            "is_state_record": false,
+            "fun_facts": [
+                "Oswego sits directly on the southeastern shore of Lake Ontario, in the path of intense lake-effect bands.",
+                "The city's Fort Ontario dates back to 1755 and has survived many brutal winters.",
+                "Lake-effect snow squalls can produce snowfall rates of 3-5 inches per hour in Oswego."
+            ],
+            "links": [
+                {
+                    "label": "Visit Oswego County",
+                    "url": "https://www.visitoswegocounty.com"
+                },
+                {
+                    "label": "Fort Ontario State Historic Site",
+                    "url": "https://parks.ny.gov/historic-sites/fortontario"
+                }
+            ]
+        },
+        {
+            "rank": 7,
+            "city": "Saranac Lake",
+            "region": "Adirondacks",
+            "total_snow": 297.5,
+            "season": "1970-1971",
+            "is_state_record": false,
+            "fun_facts": [
+                "Saranac Lake hosts the famous Winter Carnival, one of the oldest in the US since 1897.",
+                "The Adirondack village is home to the iconic Ice Palace built from blocks of lake ice.",
+                "At 1,500+ feet elevation in the Adirondacks, Saranac Lake winters are long and punishing."
+            ],
+            "links": [
+                {
+                    "label": "Saranac Lake Winter Carnival",
+                    "url": "https://www.saranaclakewintercarnival.com"
+                },
+                {
+                    "label": "Visit Adirondacks",
+                    "url": "https://www.visitadirondacks.com"
+                }
+            ]
+        },
+        {
+            "rank": 8,
+            "city": "Syracuse",
+            "region": "Central New York",
+            "total_snow": 192.1,
+            "season": "1992-1993",
+            "is_state_record": false,
+            "fun_facts": [
+                "Syracuse's 192.1-inch season in 1992-93 set its all-time city record.",
+                "Syracuse wins the Golden Snowball Award more than any other Upstate NY city.",
+                "The city sits in a unique convergence zone for both lake-effect and synoptic storms."
+            ],
+            "links": [
+                {
+                    "label": "Visit Syracuse",
+                    "url": "https://www.visitsyracuse.com"
+                },
+                {
+                    "label": "Golden Snowball Award",
+                    "url": "https://goldensnowball.com"
+                }
+            ]
+        },
+        {
+            "rank": 9,
+            "city": "Lowville",
+            "region": "Tug Hill Plateau",
+            "total_snow": 285.7,
+            "season": "1976-1977",
+            "is_state_record": false,
+            "fun_facts": [
+                "Lowville is the county seat of Lewis County, right at the western base of Tug Hill.",
+                "The 1976-77 winter that set the state record at Hooker also hammered Lowville with 285+ inches.",
+                "Lewis County is home to Snow Ridge Ski Area, which averages over 200 inches per season."
+            ],
+            "links": [
+                {
+                    "label": "Lewis County Tourism",
+                    "url": "https://www.naturallylewis.com"
+                },
+                {
+                    "label": "Snow Ridge Ski Area",
+                    "url": "https://www.snowridge.com"
+                }
+            ]
+        },
+        {
+            "rank": 10,
+            "city": "Redfield",
+            "region": "Tug Hill Plateau",
+            "total_snow": 320.0,
+            "season": "1976-1977",
+            "is_state_record": false,
+            "fun_facts": [
+                "Redfield is one of the most consistently snowy locations in the entire eastern United States.",
+                "Located on the northern slopes of Tug Hill, Redfield catches maximum lake-effect from Lake Ontario.",
+                "Annual snowfall averages in Redfield often exceed 240 inches."
+            ],
+            "links": [
+                {
+                    "label": "Oswego County Tourism",
+                    "url": "https://www.visitoswegocounty.com"
+                },
+                {
+                    "label": "Tug Hill Experience",
+                    "url": "https://www.tughill.org"
+                }
+            ]
+        }
+    ]
+}

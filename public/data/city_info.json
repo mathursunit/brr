@@ -1,0 +1,308 @@
+{
+    "syracuse_ny": {
+        "fun_facts": [
+            "Officially the snowiest major city in the United States, averaging over 127 inches annually.",
+            "Home to Syracuse University and the annual Golden Snowball Award competition.",
+            "Historically known as 'Salt City' due to its massive salt mining industry in the 1800s."
+        ],
+        "links": [
+            {
+                "label": "Visit Syracuse",
+                "url": "https://www.visitsyracuse.com"
+            },
+            {
+                "label": "Destiny USA Mall",
+                "url": "https://www.destinyusa.com"
+            }
+        ]
+    },
+    "buffalo_ny": {
+        "fun_facts": [
+            "Famous for the 'Buffalo Blizzard of 1977' and the November 2022 storm that dumped 6+ feet.",
+            "Home to the original Buffalo chicken wing, invented at the Anchor Bar in 1964.",
+            "Sits at the eastern end of Lake Erie, making it a prime target for lake-effect snow."
+        ],
+        "links": [
+            {
+                "label": "Visit Buffalo Niagara",
+                "url": "https://www.visitbuffaloniagara.com"
+            },
+            {
+                "label": "Buffalo Wings Trail",
+                "url": "https://www.visitbuffaloniagara.com/buffalo-wing-trail"
+            }
+        ]
+    },
+    "rochester_ny": {
+        "fun_facts": [
+            "Rochester receives heavy lake-effect snow from Lake Ontario, averaging over 100 inches per year.",
+            "Known as 'The Flower City' for its lilac festival — but winters tell a different story.",
+            "Home to the George Eastman Museum and a strong tradition of innovation."
+        ],
+        "links": [
+            {
+                "label": "Visit Rochester",
+                "url": "https://www.visitrochester.com"
+            },
+            {
+                "label": "Rochester Lilac Festival",
+                "url": "https://www.rochesterevents.com/lilac-festival"
+            }
+        ]
+    },
+    "binghamton_ny": {
+        "fun_facts": [
+            "Known as the 'Carousel Capital of the World' with six antique carousels donated to the city.",
+            "Located in the Southern Tier of New York, Binghamton averages over 86 inches of snow.",
+            "Home to Binghamton University, part of the SUNY system."
+        ],
+        "links": [
+            {
+                "label": "Visit Binghamton",
+                "url": "https://www.visitbinghamton.org"
+            },
+            {
+                "label": "Binghamton Zoo at Ross Park",
+                "url": "https://www.rossparkzoo.com"
+            }
+        ]
+    },
+    "anchorage_ak": {
+        "fun_facts": [
+            "Alaska's largest city receives substantial snow but is warmer than interior Alaska cities.",
+            "Host of the ceremonial start of the Iditarod sled dog race every March.",
+            "Anchorage gets about 16 hours of daylight in summer but only 5.5 hours in December."
+        ],
+        "links": [
+            {
+                "label": "Visit Anchorage",
+                "url": "https://www.anchorage.net"
+            },
+            {
+                "label": "Iditarod Official",
+                "url": "https://iditarod.com"
+            }
+        ]
+    },
+    "marquette_mi": {
+        "fun_facts": [
+            "Located on Lake Superior's southern shore, Marquette is Michigan's snowiest city.",
+            "Home to Northern Michigan University and the Upper Peninsula's largest city.",
+            "The UP receives massive lake-effect snow bands off Lake Superior."
+        ],
+        "links": [
+            {
+                "label": "Travel Marquette",
+                "url": "https://www.travelmarquette.com"
+            },
+            {
+                "label": "Marquette Mountain Ski",
+                "url": "https://www.marquettemountain.com"
+            }
+        ]
+    },
+    "caribou_me": {
+        "fun_facts": [
+            "One of the snowiest and coldest cities in the eastern United States.",
+            "Located in Aroostook County, Maine's largest and northernmost county.",
+            "Caribou's winter temperatures routinely drop below -20°F."
+        ],
+        "links": [
+            {
+                "label": "City of Caribou",
+                "url": "https://www.cariboumaine.org"
+            },
+            {
+                "label": "Aroostook County Tourism",
+                "url": "https://www.visitaroostook.com"
+            }
+        ]
+    },
+    "old_forge_ny": {
+        "fun_facts": [
+            "A popular Adirondack resort town that gets buried under snow every winter.",
+            "Known as the 'Snowmobile Capital of the East' with 500+ miles of trails.",
+            "Old Forge sits in the Fulton Chain Lakes region of the Adirondacks."
+        ],
+        "links": [
+            {
+                "label": "Visit Old Forge",
+                "url": "https://www.oldforgenychamber.com"
+            },
+            {
+                "label": "McCauley Mountain Ski",
+                "url": "https://www.mccauleyny.com"
+            }
+        ]
+    },
+    "watertown_ny": {
+        "fun_facts": [
+            "Gateway to the Thousand Islands and one of the snowiest cities east of the Rockies.",
+            "Located near Fort Drum, one of the largest US Army installations in the Northeast.",
+            "Watertown sits in the Tug Hill snow belt and routinely sees 100+ inch winters."
+        ],
+        "links": [
+            {
+                "label": "Visit Watertown",
+                "url": "https://www.watertownny.com"
+            },
+            {
+                "label": "Thousand Islands",
+                "url": "https://www.visit1000islands.com"
+            }
+        ]
+    },
+    "jamestown_ny": {
+        "fun_facts": [
+            "Birthplace of Lucille Ball and home to the National Comedy Center.",
+            "Situated near Chautauqua Lake in Western New York's snow belt.",
+            "Jamestown receives heavy snow from Lake Erie effect storms."
+        ],
+        "links": [
+            {
+                "label": "National Comedy Center",
+                "url": "https://comedycenter.org"
+            },
+            {
+                "label": "Chautauqua County",
+                "url": "https://www.tourchautauqua.com"
+            }
+        ]
+    },
+    "lake_placid_ny": {
+        "fun_facts": [
+            "Host of the 1932 and 1980 Winter Olympics — the 'Miracle on Ice' happened here.",
+            "Lake Placid is nestled in the Adirondack High Peaks region at ~1,800 feet elevation.",
+            "Home to one of only two Olympic bobsled tracks in North America."
+        ],
+        "links": [
+            {
+                "label": "Lake Placid Tourism",
+                "url": "https://www.lakeplacid.com"
+            },
+            {
+                "label": "Whiteface Mountain",
+                "url": "https://www.whiteface.com"
+            }
+        ]
+    },
+    "auburn_ny": {
+        "fun_facts": [
+            "Home to the Harriet Tubman National Historical Park.",
+            "Located in the Finger Lakes region between Owasco and Skaneateles Lakes.",
+            "Auburn's snow totals benefit from lake-effect moisture off Lake Ontario."
+        ],
+        "links": [
+            {
+                "label": "Harriet Tubman Home",
+                "url": "https://www.harriettubmanhome.com"
+            },
+            {
+                "label": "Finger Lakes Wine Country",
+                "url": "https://www.fingerlakeswinecountry.com"
+            }
+        ]
+    },
+    "sherman_ny": {
+        "fun_facts": [
+            "This tiny Chautauqua County hamlet is one of the snowiest locations in New York State.",
+            "Sherman sits on the ridge east of Lake Erie, catching intense lake-effect snow bands.",
+            "With an average near 225 inches, Sherman rivals many mountain ski resorts for annual snow."
+        ],
+        "links": [
+            {
+                "label": "Chautauqua County Visitors",
+                "url": "https://www.tourchautauqua.com"
+            },
+            {
+                "label": "Peek'n Peak Resort",
+                "url": "https://www.pknpk.com"
+            }
+        ]
+    },
+    "fairbanks_ak": {
+        "fun_facts": [
+            "Interior Alaska's largest city, known for extreme cold with temperatures hitting -50°F or colder.",
+            "One of the best places in the world to see the Northern Lights (Aurora Borealis).",
+            "Fairbanks experiences nearly 24 hours of sunlight on the summer solstice."
+        ],
+        "links": [
+            {
+                "label": "Explore Fairbanks",
+                "url": "https://www.explorefairbanks.com"
+            },
+            {
+                "label": "Chena Hot Springs",
+                "url": "https://chenahotsprings.com"
+            }
+        ]
+    },
+    "international_falls_mn": {
+        "fun_facts": [
+            "Self-proclaimed 'Icebox of the Nation' — a title defended in a legal dispute with Fraser, CO.",
+            "Sits on the Canadian border along the Rainy River, with brutal wind chills.",
+            "Average January low is about -7°F, but readings of -40°F happen regularly."
+        ],
+        "links": [
+            {
+                "label": "Visit International Falls",
+                "url": "https://www.rainylake.org"
+            },
+            {
+                "label": "Voyageurs National Park",
+                "url": "https://www.nps.gov/voya"
+            }
+        ]
+    },
+    "tower_mn": {
+        "fun_facts": [
+            "Tower, MN holds some of the coldest temperature records in the Lower 48 states.",
+            "Located in St. Louis County on the edge of the Boundary Waters Canoe Area.",
+            "Tower once recorded -60°F on February 2, 1996."
+        ],
+        "links": [
+            {
+                "label": "Tower, MN Info",
+                "url": "https://www.towermn.com"
+            },
+            {
+                "label": "Boundary Waters",
+                "url": "https://www.bwca.com"
+            }
+        ]
+    },
+    "grand_forks_nd": {
+        "fun_facts": [
+            "Located in the Red River Valley, Grand Forks is one of the coldest metro areas in the US.",
+            "Home to the University of North Dakota and the famous Ralph Engelstad Arena.",
+            "The 1997 Red River flood devastated the city, leading to massive flood protection upgrades."
+        ],
+        "links": [
+            {
+                "label": "Visit Grand Forks",
+                "url": "https://www.visitgrandforks.com"
+            },
+            {
+                "label": "University of North Dakota",
+                "url": "https://und.edu"
+            }
+        ]
+    },
+    "fargo_nd": {
+        "fun_facts": [
+            "Yes, the movie 'Fargo' was mostly set here — but filmed in Minnesota.",
+            "Fargo-Moorhead is one of the fastest-growing metro areas in the Upper Midwest.",
+            "January average highs are around 16°F with lows near -3°F."
+        ],
+        "links": [
+            {
+                "label": "Fargo-Moorhead CVB",
+                "url": "https://www.fargomoorhead.org"
+            },
+            {
+                "label": "Fargo Air Museum",
+                "url": "https://www.fargoairmuseum.org"
+            }
+        ]
+    }
+}
