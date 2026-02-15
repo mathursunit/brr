@@ -21,6 +21,14 @@ function computeProgress(totalSnow, avgAnnual) {
     return Math.min(150, Math.round((totalSnow / avgAnnual) * 100));
 }
 
+function getNormalToDate(avgAnnual) {
+    if (!avgAnnual) return 0;
+    const now = new Date();
+    const oct1 = new Date(now.getMonth() >= 9 ? now.getFullYear() : now.getFullYear() - 1, 9, 1);
+    const elapsed = Math.max(1, Math.min(212, Math.floor((now - oct1) / 86400000)));
+    return Math.round((avgAnnual * (elapsed / 212)) * 10) / 10;
+}
+
 function progressColor(pct) {
     if (pct >= 100) return 'bg-emerald-500';
     if (pct >= 75) return 'bg-brand-500';
@@ -178,6 +186,7 @@ function PodiumCard({ entry, rank, isSnow, isLive, isHoF, onClick }) {
 export default function Leaderboard({ mode, filter, data, hofData, history, cityInfo, citiesGeo, theme }) {
     const [selectedCity, setSelectedCity] = useState(null);
     const [selectedHoF, setSelectedHoF] = useState(null);
+    const [view, setView] = useState('leaderboard');
 
     const isSnow = mode === 'snow';
     const isCold = mode === 'cold';
@@ -272,7 +281,7 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
             )}
 
             {/* Podium */}
-            {top3.length > 0 && (
+            {view === 'leaderboard' && top3.length > 0 && (
                 <div className="grid md:grid-cols-3 gap-4">
                     {top3.map((entry, i) => (
                         <PodiumCard
@@ -288,6 +297,30 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
                 </div>
             )}
 
+            {/* View Toggle */}
+            <div className="flex justify-end px-2">
+                <div className="bg-frost-100 dark:bg-frost-800/40 p-1 rounded-lg inline-flex">
+                    <button
+                        onClick={() => setView('leaderboard')}
+                        className={`px-3 py-1.5 text-xs font-bold rounded-md transition-all ${view === 'leaderboard'
+                            ? 'bg-white dark:bg-frost-700 text-frost-900 dark:text-white shadow-sm'
+                            : 'text-frost-500 dark:text-snow-500 hover:text-frost-700 dark:hover:text-snow-300'
+                            }`}
+                    >
+                        Leaderboard
+                    </button>
+                    <button
+                        onClick={() => setView('detailed')}
+                        className={`px-3 py-1.5 text-xs font-bold rounded-md transition-all ${view === 'detailed'
+                            ? 'bg-white dark:bg-frost-700 text-frost-900 dark:text-white shadow-sm'
+                            : 'text-frost-500 dark:text-snow-500 hover:text-frost-700 dark:hover:text-snow-300'
+                            }`}
+                    >
+                        Detailed Stats
+                    </button>
+                </div>
+            </div>
+
             {/* Data Table */}
             {rest.length > 0 && (
                 <div className="bg-white dark:bg-frost-900/60 rounded-2xl border border-frost-200 dark:border-ice-400/10 shadow-sm overflow-hidden">
@@ -298,26 +331,41 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
                                     <th className="text-left px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider">Rank</th>
                                     <th className="text-left px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider">City</th>
                                     <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider">
-                                        {isCold ? 'Low Temp' : 'Total Snow'}
+                                        {isCold ? 'Low Temp' : 'Current Total'}
                                     </th>
-                                    {isSnow && isLive && (
+                                    {isSnow && isLive && view === 'detailed' && (
+                                        <>
+                                            <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider hidden sm:table-cell">Normal to Date</th>
+                                            <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider hidden sm:table-cell">Departure</th>
+                                            <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider hidden sm:table-cell">Season Avg</th>
+                                        </>
+                                    )}
+                                    {isSnow && isLive && view === 'leaderboard' && (
                                         <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider hidden sm:table-cell">% of Annual Avg</th>
                                     )}
                                     <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider hidden sm:table-cell">
-                                        {isCold ? 'Windchill' : isHoF ? 'Season' : 'Last 24h'}
+                                        {isCold ? 'Windchill' : isHoF ? 'Season' : view === 'detailed' ? '% of Normal' : 'Last 24h'}
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {rest.map((entry, i) => {
+                                {(view === 'detailed' ? rankings : rest).map((entry, i) => {
                                     const trend = isSnow && isLive ? computeTrend(entry.total_snow, entry.avg_annual) : null;
                                     const progress = isSnow && isLive ? computeProgress(entry.total_snow, entry.avg_annual) : 0;
+
+                                    // Detailed calcs
+                                    const normalToDate = isSnow && isLive ? getNormalToDate(entry.avg_annual) : 0;
+                                    const departure = isSnow && isLive ? (entry.total_snow - normalToDate).toFixed(1) : 0;
+                                    const isPositive = departure >= 0;
+
+                                    // Rank display adjustment for full list in detailed view
+                                    const displayRank = view === 'detailed' ? (i + 1) : (entry.rank || i + 4);
 
                                     return (
                                         <tr
                                             key={entry.id || entry.rank}
                                             className="border-b border-frost-100 dark:border-frost-800/30 hover:bg-frost-50 dark:hover:bg-frost-800/20 cursor-pointer transition-colors animate-fade-in-up"
-                                            style={{ animationDelay: `${i * 50}ms` }}
+                                            style={{ animationDelay: `${i * 30}ms` }}
                                             onClick={() => handleCityClick(entry)}
                                             tabIndex={0}
                                             role="button"
@@ -326,8 +374,8 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
                                         >
                                             <td className="px-4 py-3 whitespace-nowrap">
                                                 <div className="flex items-center gap-2">
-                                                    <span className="text-sm font-bold text-frost-700 dark:text-snow-300">#{entry.rank || i + 4}</span>
-                                                    {isLive && <RankChange current={entry.rank} previous={entry.previous_rank} />}
+                                                    <span className={`text-sm font-bold ${displayRank <= 3 ? 'text-brand-500' : 'text-frost-700 dark:text-snow-300'}`}>#{displayRank}</span>
+                                                    {isLive && view === 'leaderboard' && <RankChange current={entry.rank} previous={entry.previous_rank} />}
                                                 </div>
                                             </td>
                                             <td className="px-4 py-3">
@@ -347,10 +395,27 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
                                                     <span className="text-sm font-bold text-frost-900 dark:text-white">
                                                         {isCold ? `${entry.lowest_temp}°F` : `${entry.total_snow}"`}
                                                     </span>
-                                                    {isSnow && isLive && <TrendBadge trend={trend} />}
+                                                    {isSnow && isLive && view === 'leaderboard' && <TrendBadge trend={trend} />}
                                                 </div>
                                             </td>
-                                            {isSnow && isLive && (
+
+                                            {/* Detailed Columns */}
+                                            {isSnow && isLive && view === 'detailed' && (
+                                                <>
+                                                    <td className="px-4 py-3 text-right text-sm text-frost-600 dark:text-snow-400 hidden sm:table-cell">
+                                                        {normalToDate}"
+                                                    </td>
+                                                    <td className={`px-4 py-3 text-right text-sm font-semibold hidden sm:table-cell ${isPositive ? 'text-emerald-500' : 'text-crimson-500'}`}>
+                                                        {isPositive ? '+' : ''}{departure}"
+                                                    </td>
+                                                    <td className="px-4 py-3 text-right text-sm text-frost-600 dark:text-snow-400 hidden sm:table-cell">
+                                                        {entry.avg_annual}"
+                                                    </td>
+                                                </>
+                                            )}
+
+                                            {/* Progress / Perf Column */}
+                                            {isSnow && isLive && view === 'leaderboard' && (
                                                 <td className="px-4 py-3 hidden sm:table-cell">
                                                     <div className="w-24 ml-auto">
                                                         <div className="flex justify-end text-xs text-frost-500 dark:text-snow-500 mb-0.5">{progress}%</div>
@@ -358,11 +423,14 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
                                                     </div>
                                                 </td>
                                             )}
+
                                             <td className="px-4 py-3 text-right text-sm whitespace-nowrap hidden sm:table-cell">
                                                 {isCold ? (
                                                     <span className="text-frost-600 dark:text-snow-400">{entry.lowest_windchill}°F</span>
                                                 ) : isHoF ? (
                                                     <span className="text-frost-600 dark:text-snow-400">{entry.season}</span>
+                                                ) : view === 'detailed' ? (
+                                                    <span className={`font-bold ${progress >= 100 ? 'text-emerald-500' : 'text-frost-600 dark:text-snow-400'}`}>{progress}%</span>
                                                 ) : (
                                                     <span className="text-frost-600 dark:text-snow-400">{entry.last_24h > 0 ? `+${entry.last_24h}"` : '—'}</span>
                                                 )}
