@@ -258,33 +258,7 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
                 </div>
             </div>
 
-            {/* Microcards */}
-            {summaryStats && (
-                <div className="grid grid-cols-3 gap-3">
-                    <div className="bg-white dark:bg-frost-900/60 rounded-xl p-4 border border-frost-200 dark:border-ice-400/10 text-center shadow-sm">
-                        <p className="text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider">Average</p>
-                        <p className="text-xl font-display font-bold text-frost-900 dark:text-white mt-1">
-                            {summaryStats.avg}{isCold ? '°F' : '"'}
-                        </p>
-                    </div>
-                    <div className="bg-white dark:bg-frost-900/60 rounded-xl p-4 border border-frost-200 dark:border-ice-400/10 text-center shadow-sm">
-                        <p className="text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider">
-                            {isCold ? 'Coldest' : 'Maximum'}
-                        </p>
-                        <p className="text-xl font-display font-bold text-frost-900 dark:text-white mt-1">
-                            {summaryStats.max}{isCold ? '°F' : '"'}
-                        </p>
-                    </div>
-                    <div className="bg-white dark:bg-frost-900/60 rounded-xl p-4 border border-frost-200 dark:border-ice-400/10 text-center shadow-sm">
-                        <p className="text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider">
-                            {isCold ? 'Warmest' : 'Minimum'}
-                        </p>
-                        <p className="text-xl font-display font-bold text-frost-900 dark:text-white mt-1">
-                            {summaryStats.min}{isCold ? '°F' : '"'}
-                        </p>
-                    </div>
-                </div>
-            )}
+
 
             {/* Map */}
             {isLive && rankings.length > 0 && (
