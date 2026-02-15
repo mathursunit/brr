@@ -135,7 +135,7 @@ function PodiumCard({ entry, rank, isSnow, isLive, isHoF, onClick }) {
                 {isSnow && isLive && entry.avg_annual > 0 && (
                     <div className="mt-3">
                         <div className="flex justify-between items-center text-xs text-frost-500 dark:text-snow-500 mb-1">
-                            <span>Season Progress</span>
+                            <span>% of Annual Avg</span>
                             <span>{progress}%</span>
                         </div>
                         <ProgressBar progress={progress} />
@@ -300,7 +300,7 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
                                         {isCold ? 'Low Temp' : 'Total Snow'}
                                     </th>
                                     {isSnow && isLive && (
-                                        <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider hidden sm:table-cell">Progress</th>
+                                        <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider hidden sm:table-cell">% of Annual Avg</th>
                                     )}
                                     <th className="text-right px-4 py-3 text-xs font-semibold text-frost-500 dark:text-snow-500 uppercase tracking-wider hidden sm:table-cell">
                                         {isCold ? 'Windchill' : isHoF ? 'Season' : 'Last 24h'}
