@@ -109,11 +109,19 @@ export default function Icon({ name, size = 20, className = '', title, ...props 
     const iconContent = icons[name];
     if (!iconContent) return null;
 
+    // Scale numeric sizes to rems (based on 16px default)
+    // With html font-size: 12px, 1rem = 12px.
+    // So size={20} -> 1.25rem -> 15px (75% of 20).
+    const isNum = typeof size === 'number' || !isNaN(Number(size));
+    const style = isNum ? {
+        width: `${Number(size) / 16}rem`,
+        height: `${Number(size) / 16}rem`
+    } : { width: size, height: size };
+
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={size}
-            height={size}
+            style={style}
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"

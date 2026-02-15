@@ -81,8 +81,8 @@ export default function CityHistory({ city, onClose, history, cityInfo }) {
                         <button
                             onClick={() => setActiveTab('analysis')}
                             className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all ${activeTab === 'analysis'
-                                    ? 'bg-brand-500 text-white shadow-lg shadow-brand-500/25'
-                                    : 'bg-frost-100 dark:bg-frost-800/40 text-frost-600 dark:text-snow-400 hover:bg-frost-200 dark:hover:bg-frost-700/40'
+                                ? 'bg-brand-500 text-white shadow-lg shadow-brand-500/25'
+                                : 'bg-frost-100 dark:bg-frost-800/40 text-frost-600 dark:text-snow-400 hover:bg-frost-200 dark:hover:bg-frost-700/40'
                                 }`}
                         >
                             <Icon name="chart" size={14} className="inline mr-1.5 -mt-0.5" />
@@ -91,8 +91,8 @@ export default function CityHistory({ city, onClose, history, cityInfo }) {
                         <button
                             onClick={() => setActiveTab('facts')}
                             className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all ${activeTab === 'facts'
-                                    ? 'bg-brand-500 text-white shadow-lg shadow-brand-500/25'
-                                    : 'bg-frost-100 dark:bg-frost-800/40 text-frost-600 dark:text-snow-400 hover:bg-frost-200 dark:hover:bg-frost-700/40'
+                                ? 'bg-brand-500 text-white shadow-lg shadow-brand-500/25'
+                                : 'bg-frost-100 dark:bg-frost-800/40 text-frost-600 dark:text-snow-400 hover:bg-frost-200 dark:hover:bg-frost-700/40'
                                 }`}
                         >
                             <Icon name="info" size={14} className="inline mr-1.5 -mt-0.5" />
@@ -155,7 +155,7 @@ export default function CityHistory({ city, onClose, history, cityInfo }) {
                                         Historical Snowfall (inches per season)
                                     </h3>
                                     <div className="bg-frost-50 dark:bg-frost-900/50 rounded-xl p-4 border border-frost-200 dark:border-frost-700/30">
-                                        <ResponsiveContainer width="100%" height={280}>
+                                        <ResponsiveContainer width="100%" height={210}>
                                             <AreaChart data={chartData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
                                                 <defs>
                                                     <linearGradient id="snowGradient" x1="0" y1="0" x2="0" y2="1">

@@ -12,7 +12,9 @@ L.Icon.Default.mergeOptions({
 });
 
 function createRankIcon(rank, value, unit, isCold) {
-    const size = rank === 1 ? 48 : rank <= 3 ? 40 : 32;
+    // Scaled sizes (original * 0.75)
+    // 48->36, 40->30, 32->24
+    const size = rank === 1 ? 36 : rank <= 3 ? 30 : 24;
     const bgColor = isCold
         ? rank === 1 ? '#3384fc' : rank <= 3 ? '#0ca5eb' : '#356ec1'
         : rank === 1 ? '#f97316' : rank <= 3 ? '#fb923c' : '#3384fc';
@@ -25,7 +27,7 @@ function createRankIcon(rank, value, unit, isCold) {
         width: ${size}px;
         height: ${size}px;
         border-radius: 50%;
-        border: 3px solid white;
+        border: 2px solid white; /* thinner border for smaller scale */
         box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         display: flex;
         align-items: center;
@@ -36,7 +38,7 @@ function createRankIcon(rank, value, unit, isCold) {
         cursor: pointer;
         transition: transform 0.2s;
       ">
-        <span style="font-size: ${rank === 1 ? '14px' : '11px'}; font-weight: 800; line-height: 1;">#${rank}</span>
+        <span style="font-size: ${rank === 1 ? '10px' : '9px'}; font-weight: 800; line-height: 1;">#${rank}</span>
       </div>
     `,
         iconSize: [size, size],
@@ -71,9 +73,9 @@ export default function SnowMap({ rankings = [], isColdMode = false, onCityClick
             <MapContainer
                 center={[42, -80]}
                 zoom={5}
-                style={{ height: '380px', width: '100%' }}
+                // Converted 380px -> ~24rem (h-96)
+                className="z-0 h-96 w-full"
                 scrollWheelZoom={false}
-                className="z-0"
             >
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'
