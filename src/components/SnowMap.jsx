@@ -88,6 +88,7 @@ export default function SnowMap({ rankings = [], isColdMode = false, onCityClick
                         key={r.id}
                         position={[r.lat, r.lon]}
                         icon={createRankIcon(r.rank, r[metricKey], unit, isColdMode)}
+                        zIndexOffset={1000 - r.rank} // Higher ranks (#1, #2) get higher z-index to stay on top
                         eventHandlers={{
                             click: () => onCityClick && onCityClick(r)
                         }}
