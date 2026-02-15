@@ -126,8 +126,9 @@ function PodiumCard({ entry, rank, isSnow, isLive, isHoF, onClick }) {
 
                 {/* Trend */}
                 {isSnow && isLive && trend !== null && (
-                    <div className="mt-2">
+                    <div className="mt-2 flex items-center gap-2">
                         <TrendBadge trend={trend} />
+                        <span className="text-xs font-medium text-frost-500 dark:text-snow-500">vs. Avg to Date</span>
                     </div>
                 )}
 
