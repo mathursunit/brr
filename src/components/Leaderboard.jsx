@@ -46,8 +46,8 @@ function TrendBadge({ trend }) {
     const positive = trend >= 0;
     return (
         <span className={`inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full text-xs font-bold ${positive
-                ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400'
-                : 'bg-fire-500/15 text-fire-600 dark:text-fire-400'
+            ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400'
+            : 'bg-fire-500/15 text-fire-600 dark:text-fire-400'
             }`}>
             {positive ? '+' : ''}{trend}%
         </span>
@@ -86,8 +86,8 @@ function PodiumCard({ entry, rank, isSnow, isLive, isHoF, onClick }) {
             onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClick(entry); } }}
         >
             <div className={`relative overflow-hidden rounded-2xl border transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl ${isFirst
-                    ? 'bg-gradient-to-br from-yellow-400/5 via-white to-fire-400/5 dark:from-yellow-400/10 dark:via-frost-900 dark:to-fire-400/10 border-yellow-400/30 dark:border-yellow-400/20 shadow-lg shadow-yellow-400/5'
-                    : 'bg-white dark:bg-frost-900/80 border-frost-200 dark:border-ice-400/10 shadow-md'
+                ? 'bg-gradient-to-br from-yellow-400/5 via-white to-fire-400/5 dark:from-yellow-400/10 dark:via-frost-900 dark:to-fire-400/10 border-yellow-400/30 dark:border-yellow-400/20 shadow-lg shadow-yellow-400/5'
+                : 'bg-white dark:bg-frost-900/80 border-frost-200 dark:border-ice-400/10 shadow-md'
                 } p-5 ${isFirst ? 'md:p-6' : ''}`}>
                 {/* Rank badge */}
                 <div className="flex items-center justify-between mb-3">
@@ -174,7 +174,7 @@ function PodiumCard({ entry, rank, isSnow, isLive, isHoF, onClick }) {
 }
 
 // --- Main Leaderboard ---
-export default function Leaderboard({ mode, filter, data, hofData, history, cityInfo, citiesGeo }) {
+export default function Leaderboard({ mode, filter, data, hofData, history, cityInfo, citiesGeo, theme }) {
     const [selectedCity, setSelectedCity] = useState(null);
     const [selectedHoF, setSelectedHoF] = useState(null);
 
@@ -292,6 +292,7 @@ export default function Leaderboard({ mode, filter, data, hofData, history, city
                     rankings={rankings}
                     isColdMode={isCold}
                     onCityClick={handleCityClick}
+                    theme={theme}
                 />
             )}
 

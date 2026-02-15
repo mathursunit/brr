@@ -128,8 +128,8 @@ export default function App() {
             <div className="relative z-10 flex flex-col min-h-screen">
                 {/* Alert Banner */}
                 <div className={`w-full py-1.5 px-4 flex justify-between items-center text-xs font-medium ${mode === 'snow'
-                        ? 'bg-brand-600 text-white'
-                        : 'bg-ice-600 text-white'
+                    ? 'bg-brand-600 text-white'
+                    : 'bg-ice-600 text-white'
                     }`}>
                     <div className="flex items-center gap-2">
                         <Icon name={mode === 'snow' ? 'snow' : 'thermo'} size={14} />
@@ -169,8 +169,8 @@ export default function App() {
                             <button
                                 onClick={() => { setMode('snow'); setFilter('national'); }}
                                 className={`flex items-center gap-2 px-6 py-3 rounded-xl font-bold transition-all ${mode === 'snow'
-                                        ? 'bg-brand-500 text-white shadow-lg shadow-brand-500/25 scale-105'
-                                        : 'text-frost-500 dark:text-snow-500 hover:text-frost-700 dark:hover:text-white'
+                                    ? 'bg-brand-500 text-white shadow-lg shadow-brand-500/25 scale-105'
+                                    : 'text-frost-500 dark:text-snow-500 hover:text-frost-700 dark:hover:text-white'
                                     }`}
                             >
                                 <Icon name="snow" className={mode === 'snow' ? 'animate-pulse-slow' : ''} />
@@ -179,8 +179,8 @@ export default function App() {
                             <button
                                 onClick={() => { setMode('cold'); setFilter('national'); }}
                                 className={`flex items-center gap-2 px-6 py-3 rounded-xl font-bold transition-all ${mode === 'cold'
-                                        ? 'bg-ice-500 text-white shadow-lg shadow-ice-500/25 scale-105'
-                                        : 'text-frost-500 dark:text-snow-500 hover:text-frost-700 dark:hover:text-white'
+                                    ? 'bg-ice-500 text-white shadow-lg shadow-ice-500/25 scale-105'
+                                    : 'text-frost-500 dark:text-snow-500 hover:text-frost-700 dark:hover:text-white'
                                     }`}
                             >
                                 <Icon name="thermo" className={mode === 'cold' ? 'animate-pulse-slow' : ''} />
@@ -201,8 +201,8 @@ export default function App() {
                                     key={f.id}
                                     onClick={() => setFilter(f.id)}
                                     className={`px-4 py-2 rounded-full text-sm font-bold whitespace-nowrap transition-all border ${filter === f.id
-                                            ? 'bg-white dark:bg-white text-brand-600 border-white shadow-md'
-                                            : 'bg-transparent text-frost-500 dark:text-snow-400 border-frost-200 dark:border-frost-700 hover:border-frost-400 dark:hover:border-frost-500'
+                                        ? 'bg-white dark:bg-white text-brand-600 border-white shadow-md'
+                                        : 'bg-transparent text-frost-500 dark:text-snow-400 border-frost-200 dark:border-frost-700 hover:border-frost-400 dark:hover:border-frost-500'
                                         }`}
                                 >
                                     {f.label}
@@ -223,6 +223,7 @@ export default function App() {
                             history={data.history}
                             cityInfo={data.info}
                             citiesGeo={citiesGeo}
+                            theme={theme}
                         />
                     ) : (
                         <div className="flex items-center justify-center h-64">

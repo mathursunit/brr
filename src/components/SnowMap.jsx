@@ -57,7 +57,7 @@ function FitBounds({ positions }) {
     return null;
 }
 
-export default function SnowMap({ rankings = [], isColdMode = false, onCityClick }) {
+export default function SnowMap({ rankings = [], isColdMode = false, onCityClick, theme = 'dark' }) {
     const positions = useMemo(
         () => rankings.filter(r => r.lat && r.lon).map(r => [r.lat, r.lon]),
         [rankings]
@@ -65,6 +65,10 @@ export default function SnowMap({ rankings = [], isColdMode = false, onCityClick
 
     const unit = isColdMode ? '°F' : '"';
     const metricKey = isColdMode ? 'lowest_temp' : 'total_snow';
+
+    const tileUrl = theme === 'light'
+        ? "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+        : "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
 
     if (rankings.length === 0) return null;
 
@@ -78,8 +82,9 @@ export default function SnowMap({ rankings = [], isColdMode = false, onCityClick
                 scrollWheelZoom={false}
             >
                 <TileLayer
+                    key={theme} // Force reload on theme change
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'
-                    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+                    url={tileUrl}
                 />
                 <FitBounds positions={positions} />
 
