@@ -97,7 +97,9 @@ export default function SnowMap({ rankings = [], isColdMode = false, onCityClick
                         // Rank 1: +13000, Rank 2: +12000, Rank 3: +11000. Others: ~1000
                         zIndexOffset={r.rank <= 3 ? 10000 + (4 - r.rank) * 1000 : 1000 - r.rank}
                         eventHandlers={{
-                            click: () => onCityClick && onCityClick(r)
+                            click: () => onCityClick && onCityClick(r),
+                            mouseover: (e) => e.target.openPopup(),
+                            mouseout: (e) => e.target.closePopup()
                         }}
                     >
                         <Popup>
