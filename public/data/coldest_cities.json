@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-15T14:39:31.240Z",
+  "last_updated": "2026-02-16T11:42:36.728Z",
   "rankings": [
     {
       "id": "fairbanks_ak",
@@ -14,7 +14,7 @@
         "Coldest_Cities"
       ],
       "rank": 1,
-      "previous_rank": 0
+      "previous_rank": 1
     },
     {
       "id": "watertown_ny",
@@ -31,7 +31,7 @@
         "Coldest_Cities"
       ],
       "rank": 2,
-      "previous_rank": 0
+      "previous_rank": 2
     },
     {
       "id": "international_falls_mn",
@@ -46,7 +46,7 @@
         "Coldest_Cities"
       ],
       "rank": 3,
-      "previous_rank": 0
+      "previous_rank": 3
     },
     {
       "id": "fargo_nd",
@@ -61,7 +61,7 @@
         "Coldest_Cities"
       ],
       "rank": 4,
-      "previous_rank": 0
+      "previous_rank": 4
     },
     {
       "id": "tower_mn",
@@ -76,7 +76,7 @@
         "Coldest_Cities"
       ],
       "rank": 5,
-      "previous_rank": 0
+      "previous_rank": 5
     },
     {
       "id": "grand_forks_nd",
@@ -91,7 +91,7 @@
         "Coldest_Cities"
       ],
       "rank": 6,
-      "previous_rank": 0
+      "previous_rank": 6
     }
   ]
 }
