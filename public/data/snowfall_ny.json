@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-02-17T11:42:36.636Z",
+  "last_updated": "2026-02-18T11:42:03.415Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
       "city": "Lake Placid",
       "state": "NY",
-      "total_snow": 143.8,
+      "total_snow": 143.9,
       "last_24h": 0,
       "avg_annual": 104.1,
       "tags": [
@@ -33,7 +33,7 @@
       "id": "rochester_ny",
       "city": "Rochester",
       "state": "NY",
-      "total_snow": 101.1,
+      "total_snow": 98.1,
       "last_24h": 0,
       "avg_annual": 102,
       "tags": [
