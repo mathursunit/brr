@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T11:42:03.415Z",
+  "last_updated": "2026-02-19T11:41:23.001Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -58,21 +58,6 @@
       "previous_rank": 4
     },
     {
-      "id": "buffalo_ny",
-      "city": "Buffalo",
-      "state": "NY",
-      "total_snow": 81.6,
-      "last_24h": 0,
-      "avg_annual": 95.4,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 5,
-      "previous_rank": 5
-    },
-    {
       "id": "auburn_ny",
       "city": "Auburn",
       "state": "NY",
@@ -82,7 +67,7 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 6,
+      "rank": 5,
       "previous_rank": 6
     },
     {
@@ -96,14 +81,29 @@
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 7,
+      "rank": 6,
       "previous_rank": 7
+    },
+    {
+      "id": "buffalo_ny",
+      "city": "Buffalo",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 95.4,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 7,
+      "previous_rank": 5
     },
     {
       "id": "old_forge_ny",
       "city": "Old Forge",
       "state": "NY",
-      "total_snow": 48.5,
+      "total_snow": 0,
       "last_24h": 0,
       "avg_annual": 157.9,
       "tags": [
