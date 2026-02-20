@@ -1,21 +1,6 @@
 {
-  "last_updated": "2026-02-19T11:41:23.001Z",
+  "last_updated": "2026-02-20T11:36:27.250Z",
   "rankings": [
-    {
-      "id": "fairbanks_ak",
-      "city": "Fairbanks",
-      "state": "AK",
-      "lowest_temp": -50,
-      "lowest_windchill": -55,
-      "record_date": "Jan 4, 2026",
-      "all_time_low": -66,
-      "all_time_windchill": -76,
-      "tags": [
-        "Coldest_Cities"
-      ],
-      "rank": 1,
-      "previous_rank": 1
-    },
     {
       "id": "watertown_ny",
       "city": "Watertown",
@@ -30,7 +15,7 @@
         "Snow_Belt",
         "Coldest_Cities"
       ],
-      "rank": 2,
+      "rank": 1,
       "previous_rank": 2
     },
     {
@@ -45,7 +30,7 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 3,
+      "rank": 2,
       "previous_rank": 3
     },
     {
@@ -60,8 +45,23 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 4,
+      "rank": 3,
       "previous_rank": 4
+    },
+    {
+      "id": "fairbanks_ak",
+      "city": "Fairbanks",
+      "state": "AK",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -66,
+      "all_time_windchill": -76,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 4,
+      "previous_rank": 1
     },
     {
       "id": "tower_mn",

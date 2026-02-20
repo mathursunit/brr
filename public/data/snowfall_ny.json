@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-02-19T11:41:23.001Z",
+  "last_updated": "2026-02-20T11:36:27.250Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
       "city": "Lake Placid",
       "state": "NY",
-      "total_snow": 143.9,
+      "total_snow": 145.9,
       "last_24h": 0,
       "avg_annual": 104.1,
       "tags": [
@@ -30,21 +30,6 @@
       "previous_rank": 2
     },
     {
-      "id": "rochester_ny",
-      "city": "Rochester",
-      "state": "NY",
-      "total_snow": 98.1,
-      "last_24h": 0,
-      "avg_annual": 102,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 3,
-      "previous_rank": 3
-    },
-    {
       "id": "jamestown_ny",
       "city": "Jamestown",
       "state": "NY",
@@ -54,8 +39,23 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 4,
+      "rank": 3,
       "previous_rank": 4
+    },
+    {
+      "id": "buffalo_ny",
+      "city": "Buffalo",
+      "state": "NY",
+      "total_snow": 81.6,
+      "last_24h": 0,
+      "avg_annual": 95.4,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 4,
+      "previous_rank": 7
     },
     {
       "id": "auburn_ny",
@@ -68,7 +68,7 @@
         "NY_Top10"
       ],
       "rank": 5,
-      "previous_rank": 6
+      "previous_rank": 5
     },
     {
       "id": "binghamton_ny",
@@ -82,35 +82,35 @@
         "US_Top10"
       ],
       "rank": 6,
-      "previous_rank": 7
-    },
-    {
-      "id": "buffalo_ny",
-      "city": "Buffalo",
-      "state": "NY",
-      "total_snow": 0,
-      "last_24h": 0,
-      "avg_annual": 95.4,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 7,
-      "previous_rank": 5
+      "previous_rank": 6
     },
     {
       "id": "old_forge_ny",
       "city": "Old Forge",
       "state": "NY",
-      "total_snow": 0,
+      "total_snow": 48.5,
       "last_24h": 0,
       "avg_annual": 157.9,
       "tags": [
         "NY_Top10"
       ],
-      "rank": 8,
+      "rank": 7,
       "previous_rank": 8
+    },
+    {
+      "id": "rochester_ny",
+      "city": "Rochester",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 102,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 8,
+      "previous_rank": 3
     },
     {
       "id": "watertown_ny",
