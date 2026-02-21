@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T11:36:27.250Z",
+  "last_updated": "2026-02-21T11:27:06.545Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -15,19 +15,19 @@
       "previous_rank": 1
     },
     {
-      "id": "syracuse_ny",
-      "city": "Syracuse",
+      "id": "rochester_ny",
+      "city": "Rochester",
       "state": "NY",
-      "total_snow": 127.7,
+      "total_snow": 101,
       "last_24h": 0,
-      "avg_annual": 127.8,
+      "avg_annual": 102,
       "tags": [
         "NY_Top10",
         "Snow_Belt",
         "US_Top10"
       ],
       "rank": 2,
-      "previous_rank": 2
+      "previous_rank": 8
     },
     {
       "id": "jamestown_ny",
@@ -40,7 +40,7 @@
         "NY_Top10"
       ],
       "rank": 3,
-      "previous_rank": 4
+      "previous_rank": 3
     },
     {
       "id": "buffalo_ny",
@@ -55,7 +55,7 @@
         "US_Top10"
       ],
       "rank": 4,
-      "previous_rank": 7
+      "previous_rank": 4
     },
     {
       "id": "auburn_ny",
@@ -95,22 +95,22 @@
         "NY_Top10"
       ],
       "rank": 7,
-      "previous_rank": 8
+      "previous_rank": 7
     },
     {
-      "id": "rochester_ny",
-      "city": "Rochester",
+      "id": "syracuse_ny",
+      "city": "Syracuse",
       "state": "NY",
       "total_snow": 0,
       "last_24h": 0,
-      "avg_annual": 102,
+      "avg_annual": 127.8,
       "tags": [
         "NY_Top10",
         "Snow_Belt",
         "US_Top10"
       ],
       "rank": 8,
-      "previous_rank": 3
+      "previous_rank": 2
     },
     {
       "id": "watertown_ny",
