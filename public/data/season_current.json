@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-23T11:42:12.502Z",
+  "last_updated": "2026-02-24T11:43:27.078Z",
   "storm_events": [],
   "rankings": [
     {
       "id": "syracuse_ny",
       "city": "Syracuse",
       "state": "NY",
-      "total_snow": 127.8,
+      "total_snow": 128.1,
       "last_24h": 0,
       "avg_annual": 127.8,
       "tags": [
@@ -15,13 +15,28 @@
         "US_Top10"
       ],
       "rank": 1,
-      "previous_rank": 3
+      "previous_rank": 1
+    },
+    {
+      "id": "rochester_ny",
+      "city": "Rochester",
+      "state": "NY",
+      "total_snow": 101.3,
+      "last_24h": 0,
+      "avg_annual": 102,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 2,
+      "previous_rank": 6
     },
     {
       "id": "buffalo_ny",
       "city": "Buffalo",
       "state": "NY",
-      "total_snow": 81.6,
+      "total_snow": 81.9,
       "last_24h": 0,
       "avg_annual": 95.4,
       "tags": [
@@ -29,8 +44,8 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 2,
-      "previous_rank": 4
+      "rank": 3,
+      "previous_rank": 2
     },
     {
       "id": "caribou_me",
@@ -42,8 +57,8 @@
       "tags": [
         "US_Top10"
       ],
-      "rank": 3,
-      "previous_rank": 1
+      "rank": 4,
+      "previous_rank": 3
     },
     {
       "id": "anchorage_ak",
@@ -55,33 +70,18 @@
       "tags": [
         "US_Top10"
       ],
-      "rank": 4,
-      "previous_rank": 2
+      "rank": 5,
+      "previous_rank": 4
     },
     {
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 59.1,
+      "total_snow": 60.2,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
         "NY_Top10",
-        "US_Top10"
-      ],
-      "rank": 5,
-      "previous_rank": 6
-    },
-    {
-      "id": "rochester_ny",
-      "city": "Rochester",
-      "state": "NY",
-      "total_snow": 0,
-      "last_24h": 0,
-      "avg_annual": 102,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
         "US_Top10"
       ],
       "rank": 6,
