@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T11:43:27.078Z",
+  "last_updated": "2026-02-25T11:42:13.343Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -42,7 +42,7 @@
         "US_Top10"
       ],
       "rank": 3,
-      "previous_rank": 8
+      "previous_rank": 3
     },
     {
       "id": "jamestown_ny",
@@ -55,7 +55,7 @@
         "NY_Top10"
       ],
       "rank": 4,
-      "previous_rank": 3
+      "previous_rank": 4
     },
     {
       "id": "auburn_ny",
@@ -83,7 +83,7 @@
         "US_Top10"
       ],
       "rank": 6,
-      "previous_rank": 4
+      "previous_rank": 6
     },
     {
       "id": "binghamton_ny",
@@ -97,7 +97,7 @@
         "US_Top10"
       ],
       "rank": 7,
-      "previous_rank": 6
+      "previous_rank": 7
     },
     {
       "id": "old_forge_ny",
@@ -110,7 +110,7 @@
         "NY_Top10"
       ],
       "rank": 8,
-      "previous_rank": 7
+      "previous_rank": 8
     },
     {
       "id": "watertown_ny",
