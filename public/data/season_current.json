@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-02-25T11:42:13.343Z",
+  "last_updated": "2026-02-26T11:42:37.885Z",
   "storm_events": [],
   "rankings": [
     {
       "id": "syracuse_ny",
       "city": "Syracuse",
       "state": "NY",
-      "total_snow": 128.1,
+      "total_snow": 129.1,
       "last_24h": 0,
       "avg_annual": 127.8,
       "tags": [
@@ -21,7 +21,7 @@
       "id": "rochester_ny",
       "city": "Rochester",
       "state": "NY",
-      "total_snow": 101.3,
+      "total_snow": 102.2,
       "last_24h": 0,
       "avg_annual": 102,
       "tags": [
@@ -36,7 +36,7 @@
       "id": "buffalo_ny",
       "city": "Buffalo",
       "state": "NY",
-      "total_snow": 81.9,
+      "total_snow": 83.3,
       "last_24h": 0,
       "avg_annual": 95.4,
       "tags": [
@@ -77,7 +77,7 @@
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 60.2,
+      "total_snow": 64.5,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
