@@ -1,19 +1,6 @@
 {
-  "last_updated": "2026-02-26T11:42:37.885Z",
+  "last_updated": "2026-02-27T11:36:16.345Z",
   "rankings": [
-    {
-      "id": "lake_placid_ny",
-      "city": "Lake Placid",
-      "state": "NY",
-      "total_snow": 157.5,
-      "last_24h": 0,
-      "avg_annual": 104.1,
-      "tags": [
-        "NY_Top10"
-      ],
-      "rank": 1,
-      "previous_rank": 1
-    },
     {
       "id": "syracuse_ny",
       "city": "Syracuse",
@@ -26,14 +13,14 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 2,
+      "rank": 1,
       "previous_rank": 2
     },
     {
       "id": "rochester_ny",
       "city": "Rochester",
       "state": "NY",
-      "total_snow": 102.2,
+      "total_snow": 104.6,
       "last_24h": 0,
       "avg_annual": 102,
       "tags": [
@@ -41,27 +28,27 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 3,
+      "rank": 2,
       "previous_rank": 3
     },
     {
       "id": "jamestown_ny",
       "city": "Jamestown",
       "state": "NY",
-      "total_snow": 91.2,
+      "total_snow": 92.2,
       "last_24h": 0,
       "avg_annual": 98.4,
       "tags": [
         "NY_Top10"
       ],
-      "rank": 4,
+      "rank": 3,
       "previous_rank": 4
     },
     {
       "id": "buffalo_ny",
       "city": "Buffalo",
       "state": "NY",
-      "total_snow": 83.3,
+      "total_snow": 84.5,
       "last_24h": 0,
       "avg_annual": 95.4,
       "tags": [
@@ -69,47 +56,34 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 5,
-      "previous_rank": 6
-    },
-    {
-      "id": "auburn_ny",
-      "city": "Auburn",
-      "state": "NY",
-      "total_snow": 82.4,
-      "last_24h": 0,
-      "avg_annual": 109.4,
-      "tags": [
-        "NY_Top10"
-      ],
-      "rank": 6,
+      "rank": 4,
       "previous_rank": 5
     },
     {
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 64.5,
+      "total_snow": 65.7,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 7,
+      "rank": 5,
       "previous_rank": 7
     },
     {
       "id": "old_forge_ny",
       "city": "Old Forge",
       "state": "NY",
-      "total_snow": 48.5,
+      "total_snow": 0,
       "last_24h": 0,
       "avg_annual": 157.9,
       "tags": [
         "NY_Top10"
       ],
-      "rank": 8,
+      "rank": 6,
       "previous_rank": 8
     },
     {
@@ -124,8 +98,34 @@
         "Snow_Belt",
         "Coldest_Cities"
       ],
-      "rank": 9,
+      "rank": 7,
       "previous_rank": 9
+    },
+    {
+      "id": "lake_placid_ny",
+      "city": "Lake Placid",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 104.1,
+      "tags": [
+        "NY_Top10"
+      ],
+      "rank": 8,
+      "previous_rank": 1
+    },
+    {
+      "id": "auburn_ny",
+      "city": "Auburn",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 109.4,
+      "tags": [
+        "NY_Top10"
+      ],
+      "rank": 9,
+      "previous_rank": 6
     },
     {
       "id": "sherman_ny",
