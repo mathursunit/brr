@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T11:37:01.922Z",
+  "last_updated": "2026-03-04T11:34:48.157Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -68,7 +68,7 @@
         "NY_Top10"
       ],
       "rank": 5,
-      "previous_rank": 6
+      "previous_rank": 5
     },
     {
       "id": "buffalo_ny",
@@ -83,7 +83,7 @@
         "US_Top10"
       ],
       "rank": 6,
-      "previous_rank": 5
+      "previous_rank": 6
     },
     {
       "id": "binghamton_ny",
