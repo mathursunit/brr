@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T11:33:59.949Z",
+  "last_updated": "2026-03-07T11:24:55.033Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -15,36 +15,6 @@
       "previous_rank": 1
     },
     {
-      "id": "syracuse_ny",
-      "city": "Syracuse",
-      "state": "NY",
-      "total_snow": 134.6,
-      "last_24h": 0,
-      "avg_annual": 127.8,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 2,
-      "previous_rank": 2
-    },
-    {
-      "id": "rochester_ny",
-      "city": "Rochester",
-      "state": "NY",
-      "total_snow": 107.6,
-      "last_24h": 0,
-      "avg_annual": 102,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 3,
-      "previous_rank": 6
-    },
-    {
       "id": "jamestown_ny",
       "city": "Jamestown",
       "state": "NY",
@@ -54,8 +24,8 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 4,
-      "previous_rank": 8
+      "rank": 2,
+      "previous_rank": 4
     },
     {
       "id": "auburn_ny",
@@ -67,22 +37,7 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 5,
-      "previous_rank": 9
-    },
-    {
-      "id": "buffalo_ny",
-      "city": "Buffalo",
-      "state": "NY",
-      "total_snow": 88.3,
-      "last_24h": 0,
-      "avg_annual": 95.4,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 6,
+      "rank": 3,
       "previous_rank": 5
     },
     {
@@ -96,8 +51,8 @@
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 7,
-      "previous_rank": 3
+      "rank": 4,
+      "previous_rank": 7
     },
     {
       "id": "old_forge_ny",
@@ -109,8 +64,53 @@
       "tags": [
         "NY_Top10"
       ],
+      "rank": 5,
+      "previous_rank": 8
+    },
+    {
+      "id": "syracuse_ny",
+      "city": "Syracuse",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 127.8,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 6,
+      "previous_rank": 2
+    },
+    {
+      "id": "buffalo_ny",
+      "city": "Buffalo",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 95.4,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 7,
+      "previous_rank": 6
+    },
+    {
+      "id": "rochester_ny",
+      "city": "Rochester",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 102,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
       "rank": 8,
-      "previous_rank": 4
+      "previous_rank": 3
     },
     {
       "id": "watertown_ny",
@@ -125,7 +125,7 @@
         "Coldest_Cities"
       ],
       "rank": 9,
-      "previous_rank": 7
+      "previous_rank": 9
     },
     {
       "id": "sherman_ny",
