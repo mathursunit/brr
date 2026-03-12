@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T11:36:57.794Z",
+  "last_updated": "2026-03-12T11:34:55.479Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -12,7 +12,7 @@
         "NY_Top10"
       ],
       "rank": 1,
-      "previous_rank": 8
+      "previous_rank": 1
     },
     {
       "id": "syracuse_ny",
@@ -27,7 +27,7 @@
         "US_Top10"
       ],
       "rank": 2,
-      "previous_rank": 1
+      "previous_rank": 2
     },
     {
       "id": "rochester_ny",
@@ -55,7 +55,7 @@
         "NY_Top10"
       ],
       "rank": 4,
-      "previous_rank": 7
+      "previous_rank": 4
     },
     {
       "id": "auburn_ny",
@@ -68,7 +68,7 @@
         "NY_Top10"
       ],
       "rank": 5,
-      "previous_rank": 9
+      "previous_rank": 5
     },
     {
       "id": "buffalo_ny",
@@ -83,7 +83,7 @@
         "US_Top10"
       ],
       "rank": 6,
-      "previous_rank": 2
+      "previous_rank": 6
     },
     {
       "id": "old_forge_ny",
@@ -96,7 +96,7 @@
         "NY_Top10"
       ],
       "rank": 7,
-      "previous_rank": 5
+      "previous_rank": 7
     },
     {
       "id": "binghamton_ny",
@@ -110,7 +110,7 @@
         "US_Top10"
       ],
       "rank": 8,
-      "previous_rank": 4
+      "previous_rank": 8
     },
     {
       "id": "watertown_ny",
@@ -125,7 +125,7 @@
         "Coldest_Cities"
       ],
       "rank": 9,
-      "previous_rank": 6
+      "previous_rank": 9
     },
     {
       "id": "sherman_ny",
