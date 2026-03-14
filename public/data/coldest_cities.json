@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T11:35:09.413Z",
+  "last_updated": "2026-03-14T11:28:18.065Z",
   "rankings": [
     {
       "id": "fairbanks_ak",
@@ -20,9 +20,9 @@
       "id": "watertown_ny",
       "city": "Watertown",
       "state": "NY",
-      "lowest_temp": -36,
-      "lowest_windchill": -41,
-      "record_date": "Feb 8, 2026",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
       "all_time_low": -38,
       "all_time_windchill": -48,
       "tags": [
@@ -37,9 +37,9 @@
       "id": "international_falls_mn",
       "city": "International Falls",
       "state": "MN",
-      "lowest_temp": -36,
-      "lowest_windchill": -41,
-      "record_date": "Jan 24, 2026",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
       "all_time_low": -55,
       "all_time_windchill": -65,
       "tags": [
@@ -47,21 +47,6 @@
       ],
       "rank": 3,
       "previous_rank": 3
-    },
-    {
-      "id": "fargo_nd",
-      "city": "Fargo",
-      "state": "ND",
-      "lowest_temp": -20,
-      "lowest_windchill": -25,
-      "record_date": "Jan 22, 2026",
-      "all_time_low": -39,
-      "all_time_windchill": -49,
-      "tags": [
-        "Coldest_Cities"
-      ],
-      "rank": 4,
-      "previous_rank": 4
     },
     {
       "id": "tower_mn",
@@ -75,7 +60,7 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 5,
+      "rank": 4,
       "previous_rank": 5
     },
     {
@@ -90,8 +75,23 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 6,
+      "rank": 5,
       "previous_rank": 6
+    },
+    {
+      "id": "fargo_nd",
+      "city": "Fargo",
+      "state": "ND",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -39,
+      "all_time_windchill": -49,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 6,
+      "previous_rank": 4
     }
   ]
 }
