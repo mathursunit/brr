@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T11:51:28.066Z",
+  "last_updated": "2026-03-17T11:46:00.682Z",
   "storm_events": [],
   "rankings": [
     {
       "id": "syracuse_ny",
       "city": "Syracuse",
       "state": "NY",
-      "total_snow": 134.4,
+      "total_snow": 134.6,
       "last_24h": 0,
       "avg_annual": 127.8,
       "tags": [
@@ -48,17 +48,30 @@
       "previous_rank": 3
     },
     {
+      "id": "anchorage_ak",
+      "city": "Anchorage",
+      "state": "AK",
+      "total_snow": 73.6,
+      "last_24h": 0,
+      "avg_annual": 77.9,
+      "tags": [
+        "US_Top10"
+      ],
+      "rank": 4,
+      "previous_rank": 6
+    },
+    {
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 69.4,
+      "total_snow": 69.7,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 4,
+      "rank": 5,
       "previous_rank": 4
     },
     {
@@ -71,21 +84,8 @@
       "tags": [
         "US_Top10"
       ],
-      "rank": 5,
-      "previous_rank": 5
-    },
-    {
-      "id": "anchorage_ak",
-      "city": "Anchorage",
-      "state": "AK",
-      "total_snow": 65.7,
-      "last_24h": 0,
-      "avg_annual": 77.9,
-      "tags": [
-        "US_Top10"
-      ],
       "rank": 6,
-      "previous_rank": 6
+      "previous_rank": 5
     },
     {
       "id": "marquette_mi",

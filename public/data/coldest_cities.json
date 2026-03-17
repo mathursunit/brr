@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T11:51:28.066Z",
+  "last_updated": "2026-03-17T11:46:00.682Z",
   "rankings": [
     {
       "id": "fairbanks_ak",
@@ -61,7 +61,7 @@
         "Coldest_Cities"
       ],
       "rank": 4,
-      "previous_rank": 6
+      "previous_rank": 4
     },
     {
       "id": "tower_mn",
@@ -76,7 +76,7 @@
         "Coldest_Cities"
       ],
       "rank": 5,
-      "previous_rank": 4
+      "previous_rank": 5
     },
     {
       "id": "grand_forks_nd",
@@ -91,7 +91,7 @@
         "Coldest_Cities"
       ],
       "rank": 6,
-      "previous_rank": 5
+      "previous_rank": 6
     }
   ]
 }
