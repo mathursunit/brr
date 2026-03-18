@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T11:46:00.682Z",
+  "last_updated": "2026-03-18T11:49:32.696Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -96,7 +96,7 @@
         "NY_Top10"
       ],
       "rank": 7,
-      "previous_rank": 8
+      "previous_rank": 7
     },
     {
       "id": "binghamton_ny",
@@ -110,7 +110,7 @@
         "US_Top10"
       ],
       "rank": 8,
-      "previous_rank": 7
+      "previous_rank": 8
     },
     {
       "id": "watertown_ny",
