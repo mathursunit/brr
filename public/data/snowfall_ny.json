@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-19T11:39:07.429Z",
+  "last_updated": "2026-03-20T11:35:35.696Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
       "city": "Lake Placid",
       "state": "NY",
-      "total_snow": 171.1,
+      "total_snow": 173.1,
       "last_24h": 0,
       "avg_annual": 104.1,
       "tags": [
@@ -18,7 +18,7 @@
       "id": "syracuse_ny",
       "city": "Syracuse",
       "state": "NY",
-      "total_snow": 136.1,
+      "total_snow": 138.4,
       "last_24h": 0,
       "avg_annual": 127.8,
       "tags": [
@@ -33,7 +33,7 @@
       "id": "rochester_ny",
       "city": "Rochester",
       "state": "NY",
-      "total_snow": 109.6,
+      "total_snow": 113,
       "last_24h": 0,
       "avg_annual": 102,
       "tags": [
@@ -48,7 +48,7 @@
       "id": "jamestown_ny",
       "city": "Jamestown",
       "state": "NY",
-      "total_snow": 95.2,
+      "total_snow": 104,
       "last_24h": 0,
       "avg_annual": 98.4,
       "tags": [
@@ -61,7 +61,7 @@
       "id": "auburn_ny",
       "city": "Auburn",
       "state": "NY",
-      "total_snow": 90.6,
+      "total_snow": 94.5,
       "last_24h": 0,
       "avg_annual": 109.4,
       "tags": [
@@ -74,7 +74,7 @@
       "id": "buffalo_ny",
       "city": "Buffalo",
       "state": "NY",
-      "total_snow": 89.1,
+      "total_snow": 92.3,
       "last_24h": 0,
       "avg_annual": 95.4,
       "tags": [
@@ -102,7 +102,7 @@
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 71.5,
+      "total_snow": 73.4,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
