@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T11:48:46.308Z",
+  "last_updated": "2026-03-25T11:44:24.039Z",
   "storm_events": [],
   "rankings": [
     {
@@ -30,7 +30,7 @@
         "US_Top10"
       ],
       "rank": 2,
-      "previous_rank": 5
+      "previous_rank": 2
     },
     {
       "id": "buffalo_ny",
@@ -45,7 +45,7 @@
         "US_Top10"
       ],
       "rank": 3,
-      "previous_rank": 2
+      "previous_rank": 3
     },
     {
       "id": "caribou_me",
@@ -58,7 +58,7 @@
         "US_Top10"
       ],
       "rank": 4,
-      "previous_rank": 7
+      "previous_rank": 4
     },
     {
       "id": "binghamton_ny",
@@ -72,7 +72,7 @@
         "US_Top10"
       ],
       "rank": 5,
-      "previous_rank": 3
+      "previous_rank": 5
     },
     {
       "id": "anchorage_ak",
@@ -85,7 +85,7 @@
         "US_Top10"
       ],
       "rank": 6,
-      "previous_rank": 4
+      "previous_rank": 6
     },
     {
       "id": "marquette_mi",
@@ -99,7 +99,7 @@
         "Snow_Belt"
       ],
       "rank": 7,
-      "previous_rank": 6
+      "previous_rank": 7
     }
   ]
 }
