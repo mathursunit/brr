@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T11:53:27.948Z",
+  "last_updated": "2026-03-27T11:44:12.759Z",
   "storm_events": [],
   "rankings": [
     {
@@ -21,7 +21,7 @@
       "id": "rochester_ny",
       "city": "Rochester",
       "state": "NY",
-      "total_snow": 113.6,
+      "total_snow": 113.7,
       "last_24h": 0,
       "avg_annual": 102,
       "tags": [
@@ -51,7 +51,7 @@
       "id": "caribou_me",
       "city": "Caribou",
       "state": "ME",
-      "total_snow": 75.6,
+      "total_snow": 77.6,
       "last_24h": 0,
       "avg_annual": 108.6,
       "tags": [
@@ -78,7 +78,7 @@
       "id": "anchorage_ak",
       "city": "Anchorage",
       "state": "AK",
-      "total_snow": 73.9,
+      "total_snow": 74,
       "last_24h": 0,
       "avg_annual": 77.9,
       "tags": [
