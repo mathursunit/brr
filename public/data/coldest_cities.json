@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T11:39:50.083Z",
+  "last_updated": "2026-04-04T11:33:32.933Z",
   "rankings": [
     {
       "id": "fairbanks_ak",
@@ -49,21 +49,6 @@
       "previous_rank": 3
     },
     {
-      "id": "fargo_nd",
-      "city": "Fargo",
-      "state": "ND",
-      "lowest_temp": -20,
-      "lowest_windchill": -25,
-      "record_date": "Jan 22, 2026",
-      "all_time_low": -39,
-      "all_time_windchill": -49,
-      "tags": [
-        "Coldest_Cities"
-      ],
-      "rank": 4,
-      "previous_rank": 6
-    },
-    {
       "id": "tower_mn",
       "city": "Tower",
       "state": "MN",
@@ -75,8 +60,8 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 5,
-      "previous_rank": 4
+      "rank": 4,
+      "previous_rank": 5
     },
     {
       "id": "grand_forks_nd",
@@ -90,8 +75,23 @@
       "tags": [
         "Coldest_Cities"
       ],
+      "rank": 5,
+      "previous_rank": 6
+    },
+    {
+      "id": "fargo_nd",
+      "city": "Fargo",
+      "state": "ND",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -39,
+      "all_time_windchill": -49,
+      "tags": [
+        "Coldest_Cities"
+      ],
       "rank": 6,
-      "previous_rank": 5
+      "previous_rank": 4
     }
   ]
 }
