@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-04T11:33:32.933Z",
+  "last_updated": "2026-04-05T11:34:40.351Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -45,6 +45,19 @@
       "previous_rank": 3
     },
     {
+      "id": "old_forge_ny",
+      "city": "Old Forge",
+      "state": "NY",
+      "total_snow": 109,
+      "last_24h": 0,
+      "avg_annual": 157.9,
+      "tags": [
+        "NY_Top10"
+      ],
+      "rank": 4,
+      "previous_rank": 7
+    },
+    {
       "id": "jamestown_ny",
       "city": "Jamestown",
       "state": "NY",
@@ -54,7 +67,7 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 4,
+      "rank": 5,
       "previous_rank": 4
     },
     {
@@ -67,7 +80,7 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 5,
+      "rank": 6,
       "previous_rank": 5
     },
     {
@@ -82,21 +95,8 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 6,
-      "previous_rank": 6
-    },
-    {
-      "id": "old_forge_ny",
-      "city": "Old Forge",
-      "state": "NY",
-      "total_snow": 87.5,
-      "last_24h": 0,
-      "avg_annual": 157.9,
-      "tags": [
-        "NY_Top10"
-      ],
       "rank": 7,
-      "previous_rank": 7
+      "previous_rank": 6
     },
     {
       "id": "binghamton_ny",
