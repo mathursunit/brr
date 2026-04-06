@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T11:34:40.351Z",
+  "last_updated": "2026-04-06T11:50:45.231Z",
   "storm_events": [],
   "rankings": [
     {
@@ -51,7 +51,7 @@
       "id": "caribou_me",
       "city": "Caribou",
       "state": "ME",
-      "total_snow": 79.3,
+      "total_snow": 80.6,
       "last_24h": 0,
       "avg_annual": 108.6,
       "tags": [
