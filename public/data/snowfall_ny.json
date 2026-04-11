@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-04-10T11:51:54.373Z",
+  "last_updated": "2026-04-11T11:34:53.032Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
       "city": "Lake Placid",
       "state": "NY",
-      "total_snow": 173.1,
+      "total_snow": 177.4,
       "last_24h": 0,
       "avg_annual": 104.1,
       "tags": [
@@ -18,7 +18,7 @@
       "id": "syracuse_ny",
       "city": "Syracuse",
       "state": "NY",
-      "total_snow": 141.4,
+      "total_snow": 142.8,
       "last_24h": 0,
       "avg_annual": 127.8,
       "tags": [
@@ -102,7 +102,7 @@
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 75.1,
+      "total_snow": 75.5,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
