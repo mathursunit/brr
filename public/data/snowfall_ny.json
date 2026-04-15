@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T11:59:32.441Z",
+  "last_updated": "2026-04-15T11:57:35.116Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -15,21 +15,6 @@
       "previous_rank": 1
     },
     {
-      "id": "syracuse_ny",
-      "city": "Syracuse",
-      "state": "NY",
-      "total_snow": 142.8,
-      "last_24h": 0,
-      "avg_annual": 127.8,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 2,
-      "previous_rank": 2
-    },
-    {
       "id": "rochester_ny",
       "city": "Rochester",
       "state": "NY",
@@ -41,7 +26,7 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 3,
+      "rank": 2,
       "previous_rank": 3
     },
     {
@@ -54,7 +39,7 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 4,
+      "rank": 3,
       "previous_rank": 4
     },
     {
@@ -67,7 +52,7 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 5,
+      "rank": 4,
       "previous_rank": 5
     },
     {
@@ -80,23 +65,8 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 6,
+      "rank": 5,
       "previous_rank": 6
-    },
-    {
-      "id": "buffalo_ny",
-      "city": "Buffalo",
-      "state": "NY",
-      "total_snow": 92.5,
-      "last_24h": 0,
-      "avg_annual": 95.4,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 7,
-      "previous_rank": 7
     },
     {
       "id": "binghamton_ny",
@@ -109,8 +79,38 @@
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 8,
+      "rank": 6,
       "previous_rank": 8
+    },
+    {
+      "id": "syracuse_ny",
+      "city": "Syracuse",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 127.8,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 7,
+      "previous_rank": 2
+    },
+    {
+      "id": "buffalo_ny",
+      "city": "Buffalo",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 95.4,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 8,
+      "previous_rank": 7
     },
     {
       "id": "watertown_ny",
