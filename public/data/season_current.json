@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T11:38:34.108Z",
+  "last_updated": "2026-04-20T12:07:35.144Z",
   "storm_events": [],
   "rankings": [
     {
@@ -15,7 +15,7 @@
         "US_Top10"
       ],
       "rank": 1,
-      "previous_rank": 5
+      "previous_rank": 1
     },
     {
       "id": "rochester_ny",
@@ -30,7 +30,7 @@
         "US_Top10"
       ],
       "rank": 2,
-      "previous_rank": 1
+      "previous_rank": 2
     },
     {
       "id": "buffalo_ny",
@@ -45,7 +45,7 @@
         "US_Top10"
       ],
       "rank": 3,
-      "previous_rank": 2
+      "previous_rank": 3
     },
     {
       "id": "caribou_me",
@@ -58,26 +58,26 @@
         "US_Top10"
       ],
       "rank": 4,
-      "previous_rank": 7
+      "previous_rank": 4
     },
     {
       "id": "anchorage_ak",
       "city": "Anchorage",
       "state": "AK",
-      "total_snow": 76.6,
+      "total_snow": 76.7,
       "last_24h": 0,
       "avg_annual": 77.9,
       "tags": [
         "US_Top10"
       ],
       "rank": 5,
-      "previous_rank": 3
+      "previous_rank": 5
     },
     {
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 75.5,
+      "total_snow": 0,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
@@ -85,7 +85,7 @@
         "US_Top10"
       ],
       "rank": 6,
-      "previous_rank": 4
+      "previous_rank": 6
     },
     {
       "id": "marquette_mi",
@@ -99,7 +99,7 @@
         "Snow_Belt"
       ],
       "rank": 7,
-      "previous_rank": 6
+      "previous_rank": 7
     }
   ]
 }

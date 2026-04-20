@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19T11:38:34.108Z",
+  "last_updated": "2026-04-20T12:07:35.144Z",
   "rankings": [
     {
       "id": "fairbanks_ak",
@@ -17,6 +17,23 @@
       "previous_rank": 1
     },
     {
+      "id": "watertown_ny",
+      "city": "Watertown",
+      "state": "NY",
+      "lowest_temp": -36,
+      "lowest_windchill": -41,
+      "record_date": "Feb 8, 2026",
+      "all_time_low": -38,
+      "all_time_windchill": -48,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "Coldest_Cities"
+      ],
+      "rank": 2,
+      "previous_rank": 4
+    },
+    {
       "id": "international_falls_mn",
       "city": "International Falls",
       "state": "MN",
@@ -28,8 +45,8 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 2,
-      "previous_rank": 3
+      "rank": 3,
+      "previous_rank": 2
     },
     {
       "id": "fargo_nd",
@@ -43,25 +60,8 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 3,
-      "previous_rank": 4
-    },
-    {
-      "id": "watertown_ny",
-      "city": "Watertown",
-      "state": "NY",
-      "lowest_temp": null,
-      "lowest_windchill": null,
-      "record_date": "N/A",
-      "all_time_low": -38,
-      "all_time_windchill": -48,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "Coldest_Cities"
-      ],
       "rank": 4,
-      "previous_rank": 2
+      "previous_rank": 3
     },
     {
       "id": "tower_mn",
