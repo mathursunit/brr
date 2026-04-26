@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T11:41:36.177Z",
+  "last_updated": "2026-04-26T11:42:06.540Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -30,6 +30,34 @@
       "previous_rank": 2
     },
     {
+      "id": "rochester_ny",
+      "city": "Rochester",
+      "state": "NY",
+      "total_snow": 114.1,
+      "last_24h": 0,
+      "avg_annual": 102,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 3,
+      "previous_rank": 7
+    },
+    {
+      "id": "old_forge_ny",
+      "city": "Old Forge",
+      "state": "NY",
+      "total_snow": 109,
+      "last_24h": 0,
+      "avg_annual": 157.9,
+      "tags": [
+        "NY_Top10"
+      ],
+      "rank": 4,
+      "previous_rank": 8
+    },
+    {
       "id": "jamestown_ny",
       "city": "Jamestown",
       "state": "NY",
@@ -39,8 +67,8 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 3,
-      "previous_rank": 5
+      "rank": 5,
+      "previous_rank": 3
     },
     {
       "id": "auburn_ny",
@@ -52,8 +80,8 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 4,
-      "previous_rank": 6
+      "rank": 6,
+      "previous_rank": 4
     },
     {
       "id": "buffalo_ny",
@@ -67,8 +95,8 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 5,
-      "previous_rank": 7
+      "rank": 7,
+      "previous_rank": 5
     },
     {
       "id": "binghamton_ny",
@@ -81,36 +109,8 @@
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 6,
-      "previous_rank": 8
-    },
-    {
-      "id": "rochester_ny",
-      "city": "Rochester",
-      "state": "NY",
-      "total_snow": 0,
-      "last_24h": 0,
-      "avg_annual": 102,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 7,
-      "previous_rank": 3
-    },
-    {
-      "id": "old_forge_ny",
-      "city": "Old Forge",
-      "state": "NY",
-      "total_snow": 0,
-      "last_24h": 0,
-      "avg_annual": 157.9,
-      "tags": [
-        "NY_Top10"
-      ],
       "rank": 8,
-      "previous_rank": 4
+      "previous_rank": 6
     },
     {
       "id": "watertown_ny",
