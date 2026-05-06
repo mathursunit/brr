@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T12:05:46.791Z",
+  "last_updated": "2026-05-06T12:57:33.504Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -102,7 +102,7 @@
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 0,
+      "total_snow": 75.8,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
