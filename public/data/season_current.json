@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T13:32:49.647Z",
+  "last_updated": "2026-05-23T12:01:54.223Z",
   "storm_events": [],
   "rankings": [
     {
@@ -61,19 +61,6 @@
       "previous_rank": 4
     },
     {
-      "id": "anchorage_ak",
-      "city": "Anchorage",
-      "state": "AK",
-      "total_snow": 76.6,
-      "last_24h": 0,
-      "avg_annual": 77.9,
-      "tags": [
-        "US_Top10"
-      ],
-      "rank": 5,
-      "previous_rank": 5
-    },
-    {
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
@@ -84,8 +71,21 @@
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 6,
+      "rank": 5,
       "previous_rank": 6
+    },
+    {
+      "id": "anchorage_ak",
+      "city": "Anchorage",
+      "state": "AK",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 77.9,
+      "tags": [
+        "US_Top10"
+      ],
+      "rank": 6,
+      "previous_rank": 5
     },
     {
       "id": "marquette_mi",
