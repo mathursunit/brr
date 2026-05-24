@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-23T12:01:54.223Z",
+  "last_updated": "2026-05-24T12:02:14.693Z",
   "rankings": [
     {
       "id": "syracuse_ny",
@@ -14,7 +14,7 @@
         "US_Top10"
       ],
       "rank": 1,
-      "previous_rank": 2
+      "previous_rank": 1
     },
     {
       "id": "rochester_ny",
@@ -29,20 +29,7 @@
         "US_Top10"
       ],
       "rank": 2,
-      "previous_rank": 3
-    },
-    {
-      "id": "jamestown_ny",
-      "city": "Jamestown",
-      "state": "NY",
-      "total_snow": 104,
-      "last_24h": 0,
-      "avg_annual": 98.4,
-      "tags": [
-        "NY_Top10"
-      ],
-      "rank": 3,
-      "previous_rank": 5
+      "previous_rank": 2
     },
     {
       "id": "auburn_ny",
@@ -54,8 +41,8 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 4,
-      "previous_rank": 6
+      "rank": 3,
+      "previous_rank": 4
     },
     {
       "id": "buffalo_ny",
@@ -69,8 +56,8 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 5,
-      "previous_rank": 7
+      "rank": 4,
+      "previous_rank": 5
     },
     {
       "id": "binghamton_ny",
@@ -83,8 +70,8 @@
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 6,
-      "previous_rank": 8
+      "rank": 5,
+      "previous_rank": 6
     },
     {
       "id": "old_forge_ny",
@@ -96,8 +83,8 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 7,
-      "previous_rank": 4
+      "rank": 6,
+      "previous_rank": 7
     },
     {
       "id": "watertown_ny",
@@ -111,8 +98,21 @@
         "Snow_Belt",
         "Coldest_Cities"
       ],
+      "rank": 7,
+      "previous_rank": 8
+    },
+    {
+      "id": "jamestown_ny",
+      "city": "Jamestown",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 98.4,
+      "tags": [
+        "NY_Top10"
+      ],
       "rank": 8,
-      "previous_rank": 9
+      "previous_rank": 3
     },
     {
       "id": "lake_placid_ny",
@@ -125,7 +125,7 @@
         "NY_Top10"
       ],
       "rank": 9,
-      "previous_rank": 1
+      "previous_rank": 9
     },
     {
       "id": "sherman_ny",
