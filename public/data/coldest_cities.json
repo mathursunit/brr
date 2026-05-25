@@ -1,36 +1,6 @@
 {
-  "last_updated": "2026-05-24T12:02:14.693Z",
+  "last_updated": "2026-05-25T14:11:29.256Z",
   "rankings": [
-    {
-      "id": "fairbanks_ak",
-      "city": "Fairbanks",
-      "state": "AK",
-      "lowest_temp": -50,
-      "lowest_windchill": -55,
-      "record_date": "Jan 4, 2026",
-      "all_time_low": -66,
-      "all_time_windchill": -76,
-      "tags": [
-        "Coldest_Cities"
-      ],
-      "rank": 1,
-      "previous_rank": 1
-    },
-    {
-      "id": "international_falls_mn",
-      "city": "International Falls",
-      "state": "MN",
-      "lowest_temp": -36,
-      "lowest_windchill": -41,
-      "record_date": "Jan 24, 2026",
-      "all_time_low": -55,
-      "all_time_windchill": -65,
-      "tags": [
-        "Coldest_Cities"
-      ],
-      "rank": 2,
-      "previous_rank": 3
-    },
     {
       "id": "watertown_ny",
       "city": "Watertown",
@@ -43,6 +13,36 @@
       "tags": [
         "NY_Top10",
         "Snow_Belt",
+        "Coldest_Cities"
+      ],
+      "rank": 1,
+      "previous_rank": 3
+    },
+    {
+      "id": "fairbanks_ak",
+      "city": "Fairbanks",
+      "state": "AK",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -66,
+      "all_time_windchill": -76,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 2,
+      "previous_rank": 1
+    },
+    {
+      "id": "international_falls_mn",
+      "city": "International Falls",
+      "state": "MN",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -55,
+      "all_time_windchill": -65,
+      "tags": [
         "Coldest_Cities"
       ],
       "rank": 3,
@@ -61,7 +61,7 @@
         "Coldest_Cities"
       ],
       "rank": 4,
-      "previous_rank": 5
+      "previous_rank": 4
     },
     {
       "id": "grand_forks_nd",
@@ -76,7 +76,7 @@
         "Coldest_Cities"
       ],
       "rank": 5,
-      "previous_rank": 6
+      "previous_rank": 5
     },
     {
       "id": "fargo_nd",
@@ -91,7 +91,7 @@
         "Coldest_Cities"
       ],
       "rank": 6,
-      "previous_rank": 4
+      "previous_rank": 6
     }
   ]
 }
