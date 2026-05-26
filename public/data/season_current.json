@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T14:11:29.256Z",
+  "last_updated": "2026-05-26T13:55:21.411Z",
   "storm_events": [],
   "rankings": [
     {
@@ -18,21 +18,6 @@
       "previous_rank": 1
     },
     {
-      "id": "rochester_ny",
-      "city": "Rochester",
-      "state": "NY",
-      "total_snow": 114.1,
-      "last_24h": 0,
-      "avg_annual": 102,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 2,
-      "previous_rank": 2
-    },
-    {
       "id": "buffalo_ny",
       "city": "Buffalo",
       "state": "NY",
@@ -44,21 +29,23 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 3,
+      "rank": 2,
       "previous_rank": 3
     },
     {
-      "id": "caribou_me",
-      "city": "Caribou",
-      "state": "ME",
-      "total_snow": 86.4,
+      "id": "rochester_ny",
+      "city": "Rochester",
+      "state": "NY",
+      "total_snow": 0,
       "last_24h": 0,
-      "avg_annual": 108.6,
+      "avg_annual": 102,
       "tags": [
+        "NY_Top10",
+        "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 4,
-      "previous_rank": 4
+      "rank": 3,
+      "previous_rank": 2
     },
     {
       "id": "binghamton_ny",
@@ -71,8 +58,8 @@
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 5,
-      "previous_rank": 6
+      "rank": 4,
+      "previous_rank": 5
     },
     {
       "id": "anchorage_ak",
@@ -84,8 +71,8 @@
       "tags": [
         "US_Top10"
       ],
-      "rank": 6,
-      "previous_rank": 5
+      "rank": 5,
+      "previous_rank": 6
     },
     {
       "id": "marquette_mi",
@@ -98,8 +85,21 @@
         "US_Top10",
         "Snow_Belt"
       ],
-      "rank": 7,
+      "rank": 6,
       "previous_rank": 7
+    },
+    {
+      "id": "caribou_me",
+      "city": "Caribou",
+      "state": "ME",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 108.6,
+      "tags": [
+        "US_Top10"
+      ],
+      "rank": 7,
+      "previous_rank": 4
     }
   ]
 }
