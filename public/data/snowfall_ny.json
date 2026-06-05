@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T14:06:03.367Z",
+  "last_updated": "2026-06-05T13:53:08.307Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -30,6 +30,19 @@
       "previous_rank": 2
     },
     {
+      "id": "old_forge_ny",
+      "city": "Old Forge",
+      "state": "NY",
+      "total_snow": 116.5,
+      "last_24h": 0,
+      "avg_annual": 157.9,
+      "tags": [
+        "NY_Top10"
+      ],
+      "rank": 3,
+      "previous_rank": 4
+    },
+    {
       "id": "rochester_ny",
       "city": "Rochester",
       "state": "NY",
@@ -41,21 +54,8 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 3,
-      "previous_rank": 3
-    },
-    {
-      "id": "old_forge_ny",
-      "city": "Old Forge",
-      "state": "NY",
-      "total_snow": 114,
-      "last_24h": 0,
-      "avg_annual": 157.9,
-      "tags": [
-        "NY_Top10"
-      ],
       "rank": 4,
-      "previous_rank": 4
+      "previous_rank": 3
     },
     {
       "id": "jamestown_ny",
