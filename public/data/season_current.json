@@ -1,22 +1,7 @@
 {
-  "last_updated": "2026-06-07T12:22:29.291Z",
+  "last_updated": "2026-06-10T14:26:00.724Z",
   "storm_events": [],
   "rankings": [
-    {
-      "id": "syracuse_ny",
-      "city": "Syracuse",
-      "state": "NY",
-      "total_snow": 143.1,
-      "last_24h": 0,
-      "avg_annual": 127.8,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 1,
-      "previous_rank": 1
-    },
     {
       "id": "rochester_ny",
       "city": "Rochester",
@@ -29,14 +14,29 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 2,
+      "rank": 1,
       "previous_rank": 2
+    },
+    {
+      "id": "syracuse_ny",
+      "city": "Syracuse",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 127.8,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 2,
+      "previous_rank": 1
     },
     {
       "id": "buffalo_ny",
       "city": "Buffalo",
       "state": "NY",
-      "total_snow": 92.5,
+      "total_snow": 0,
       "last_24h": 0,
       "avg_annual": 95.4,
       "tags": [
@@ -48,23 +48,24 @@
       "previous_rank": 3
     },
     {
-      "id": "caribou_me",
-      "city": "Caribou",
-      "state": "ME",
-      "total_snow": 86.4,
+      "id": "binghamton_ny",
+      "city": "Binghamton",
+      "state": "NY",
+      "total_snow": 0,
       "last_24h": 0,
-      "avg_annual": 108.6,
+      "avg_annual": 86.5,
       "tags": [
+        "NY_Top10",
         "US_Top10"
       ],
       "rank": 4,
-      "previous_rank": 4
+      "previous_rank": 6
     },
     {
       "id": "anchorage_ak",
       "city": "Anchorage",
       "state": "AK",
-      "total_snow": 76.7,
+      "total_snow": 0,
       "last_24h": 0,
       "avg_annual": 77.9,
       "tags": [
@@ -72,20 +73,6 @@
       ],
       "rank": 5,
       "previous_rank": 5
-    },
-    {
-      "id": "binghamton_ny",
-      "city": "Binghamton",
-      "state": "NY",
-      "total_snow": 75.8,
-      "last_24h": 0,
-      "avg_annual": 86.5,
-      "tags": [
-        "NY_Top10",
-        "US_Top10"
-      ],
-      "rank": 6,
-      "previous_rank": 6
     },
     {
       "id": "marquette_mi",
@@ -98,8 +85,21 @@
         "US_Top10",
         "Snow_Belt"
       ],
-      "rank": 7,
+      "rank": 6,
       "previous_rank": 7
+    },
+    {
+      "id": "caribou_me",
+      "city": "Caribou",
+      "state": "ME",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 108.6,
+      "tags": [
+        "US_Top10"
+      ],
+      "rank": 7,
+      "previous_rank": 4
     }
   ]
 }
