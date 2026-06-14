@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T12:52:14.310Z",
+  "last_updated": "2026-06-14T13:00:31.771Z",
   "storm_events": [],
   "rankings": [
     {
@@ -77,7 +77,7 @@
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 75.8,
+      "total_snow": 0,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
