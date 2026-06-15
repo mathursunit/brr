@@ -1,22 +1,7 @@
 {
-  "last_updated": "2026-06-14T13:00:31.771Z",
+  "last_updated": "2026-06-15T16:19:36.474Z",
   "storm_events": [],
   "rankings": [
-    {
-      "id": "syracuse_ny",
-      "city": "Syracuse",
-      "state": "NY",
-      "total_snow": 143.1,
-      "last_24h": 0,
-      "avg_annual": 127.8,
-      "tags": [
-        "NY_Top10",
-        "Snow_Belt",
-        "US_Top10"
-      ],
-      "rank": 1,
-      "previous_rank": 1
-    },
     {
       "id": "rochester_ny",
       "city": "Rochester",
@@ -29,7 +14,7 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 2,
+      "rank": 1,
       "previous_rank": 2
     },
     {
@@ -44,7 +29,7 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 3,
+      "rank": 2,
       "previous_rank": 3
     },
     {
@@ -57,7 +42,7 @@
       "tags": [
         "US_Top10"
       ],
-      "rank": 4,
+      "rank": 3,
       "previous_rank": 4
     },
     {
@@ -70,22 +55,37 @@
       "tags": [
         "US_Top10"
       ],
-      "rank": 5,
+      "rank": 4,
       "previous_rank": 5
     },
     {
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 0,
+      "total_snow": 75.8,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 6,
+      "rank": 5,
       "previous_rank": 6
+    },
+    {
+      "id": "syracuse_ny",
+      "city": "Syracuse",
+      "state": "NY",
+      "total_snow": 0,
+      "last_24h": 0,
+      "avg_annual": 127.8,
+      "tags": [
+        "NY_Top10",
+        "Snow_Belt",
+        "US_Top10"
+      ],
+      "rank": 6,
+      "previous_rank": 1
     },
     {
       "id": "marquette_mi",
