@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T14:26:42.416Z",
+  "last_updated": "2026-06-18T14:12:15.942Z",
   "rankings": [
     {
       "id": "fairbanks_ak",
@@ -31,7 +31,22 @@
         "Coldest_Cities"
       ],
       "rank": 2,
-      "previous_rank": 3
+      "previous_rank": 2
+    },
+    {
+      "id": "international_falls_mn",
+      "city": "International Falls",
+      "state": "MN",
+      "lowest_temp": -36,
+      "lowest_windchill": -41,
+      "record_date": "Jan 24, 2026",
+      "all_time_low": -55,
+      "all_time_windchill": -65,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 3,
+      "previous_rank": 4
     },
     {
       "id": "fargo_nd",
@@ -45,23 +60,8 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 3,
-      "previous_rank": 6
-    },
-    {
-      "id": "international_falls_mn",
-      "city": "International Falls",
-      "state": "MN",
-      "lowest_temp": null,
-      "lowest_windchill": null,
-      "record_date": "N/A",
-      "all_time_low": -55,
-      "all_time_windchill": -65,
-      "tags": [
-        "Coldest_Cities"
-      ],
       "rank": 4,
-      "previous_rank": 2
+      "previous_rank": 3
     },
     {
       "id": "tower_mn",
@@ -76,7 +76,7 @@
         "Coldest_Cities"
       ],
       "rank": 5,
-      "previous_rank": 4
+      "previous_rank": 5
     },
     {
       "id": "grand_forks_nd",
@@ -91,7 +91,7 @@
         "Coldest_Cities"
       ],
       "rank": 6,
-      "previous_rank": 5
+      "previous_rank": 6
     }
   ]
 }
