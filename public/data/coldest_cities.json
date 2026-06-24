@@ -1,21 +1,6 @@
 {
-  "last_updated": "2026-06-23T13:43:50.270Z",
+  "last_updated": "2026-06-24T13:24:46.935Z",
   "rankings": [
-    {
-      "id": "fairbanks_ak",
-      "city": "Fairbanks",
-      "state": "AK",
-      "lowest_temp": -50,
-      "lowest_windchill": -55,
-      "record_date": "Jan 4, 2026",
-      "all_time_low": -66,
-      "all_time_windchill": -76,
-      "tags": [
-        "Coldest_Cities"
-      ],
-      "rank": 1,
-      "previous_rank": 1
-    },
     {
       "id": "watertown_ny",
       "city": "Watertown",
@@ -30,7 +15,7 @@
         "Snow_Belt",
         "Coldest_Cities"
       ],
-      "rank": 2,
+      "rank": 1,
       "previous_rank": 2
     },
     {
@@ -45,23 +30,23 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 3,
+      "rank": 2,
       "previous_rank": 3
     },
     {
-      "id": "fargo_nd",
-      "city": "Fargo",
-      "state": "ND",
-      "lowest_temp": -20,
-      "lowest_windchill": -25,
-      "record_date": "Jan 22, 2026",
-      "all_time_low": -39,
-      "all_time_windchill": -49,
+      "id": "fairbanks_ak",
+      "city": "Fairbanks",
+      "state": "AK",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -66,
+      "all_time_windchill": -76,
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 4,
-      "previous_rank": 4
+      "rank": 3,
+      "previous_rank": 1
     },
     {
       "id": "tower_mn",
@@ -75,7 +60,7 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 5,
+      "rank": 4,
       "previous_rank": 5
     },
     {
@@ -90,8 +75,23 @@
       "tags": [
         "Coldest_Cities"
       ],
-      "rank": 6,
+      "rank": 5,
       "previous_rank": 6
+    },
+    {
+      "id": "fargo_nd",
+      "city": "Fargo",
+      "state": "ND",
+      "lowest_temp": null,
+      "lowest_windchill": null,
+      "record_date": "N/A",
+      "all_time_low": -39,
+      "all_time_windchill": -49,
+      "tags": [
+        "Coldest_Cities"
+      ],
+      "rank": 6,
+      "previous_rank": 4
     }
   ]
 }
