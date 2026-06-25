@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T13:24:46.935Z",
+  "last_updated": "2026-06-25T13:22:09.774Z",
   "rankings": [
     {
       "id": "lake_placid_ny",
@@ -30,6 +30,19 @@
       "previous_rank": 2
     },
     {
+      "id": "old_forge_ny",
+      "city": "Old Forge",
+      "state": "NY",
+      "total_snow": 116.5,
+      "last_24h": 0,
+      "avg_annual": 157.9,
+      "tags": [
+        "NY_Top10"
+      ],
+      "rank": 3,
+      "previous_rank": 7
+    },
+    {
       "id": "rochester_ny",
       "city": "Rochester",
       "state": "NY",
@@ -41,8 +54,8 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 3,
-      "previous_rank": 6
+      "rank": 4,
+      "previous_rank": 3
     },
     {
       "id": "jamestown_ny",
@@ -54,7 +67,20 @@
       "tags": [
         "NY_Top10"
       ],
-      "rank": 4,
+      "rank": 5,
+      "previous_rank": 4
+    },
+    {
+      "id": "auburn_ny",
+      "city": "Auburn",
+      "state": "NY",
+      "total_snow": 95.1,
+      "last_24h": 0,
+      "avg_annual": 109.4,
+      "tags": [
+        "NY_Top10"
+      ],
+      "rank": 6,
       "previous_rank": 9
     },
     {
@@ -69,35 +95,22 @@
         "Snow_Belt",
         "US_Top10"
       ],
-      "rank": 5,
+      "rank": 7,
       "previous_rank": 5
     },
     {
       "id": "binghamton_ny",
       "city": "Binghamton",
       "state": "NY",
-      "total_snow": 75.8,
+      "total_snow": 0,
       "last_24h": 0,
       "avg_annual": 86.5,
       "tags": [
         "NY_Top10",
         "US_Top10"
       ],
-      "rank": 6,
-      "previous_rank": 7
-    },
-    {
-      "id": "old_forge_ny",
-      "city": "Old Forge",
-      "state": "NY",
-      "total_snow": 0,
-      "last_24h": 0,
-      "avg_annual": 157.9,
-      "tags": [
-        "NY_Top10"
-      ],
-      "rank": 7,
-      "previous_rank": 3
+      "rank": 8,
+      "previous_rank": 6
     },
     {
       "id": "watertown_ny",
@@ -111,21 +124,8 @@
         "Snow_Belt",
         "Coldest_Cities"
       ],
-      "rank": 8,
-      "previous_rank": 8
-    },
-    {
-      "id": "auburn_ny",
-      "city": "Auburn",
-      "state": "NY",
-      "total_snow": 0,
-      "last_24h": 0,
-      "avg_annual": 109.4,
-      "tags": [
-        "NY_Top10"
-      ],
       "rank": 9,
-      "previous_rank": 4
+      "previous_rank": 8
     },
     {
       "id": "sherman_ny",
